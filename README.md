@@ -1,15 +1,15 @@
-# 🧩 Application de Data Governance & Data Quality Automation
+# Application de Data Governance & Data Quality Automation
 
-## 🏢 Contexte
+## Contexte
 
 Ce projet a été développé dans le cadre de mon alternance au **Crédit Agricole Personal Finance & Mobility (CAPFM)**, au sein du **Data Management Office (DMO)**.  
 Le DMO a pour mission de piloter la gouvernance et la qualité des données, en garantissant leur conformité, leur fiabilité et leur valorisation.  
 
-👉 L’application a été conçue pour **automatiser la documentation, l’historisation et la visualisation** des règles de qualité des données dans un écosystème cloud.
+L’application a été conçue pour **automatiser la documentation, l’historisation et la visualisation** des règles de qualité des données dans un écosystème cloud.
 
 ---
 
-## 🎯 Objectif du projet
+## Objectif du projet
 
 Développer une solution **end-to-end** pour :
 - Centraliser et normaliser les **règles de qualité**.  
@@ -19,7 +19,7 @@ Développer une solution **end-to-end** pour :
 
 ---
 
-## 🧠 Architecture générale
+## Architecture générale
 
 L’application repose sur une architecture en 5 couches interconnectées :
 
@@ -31,14 +31,14 @@ L’application repose sur une architecture en 5 couches interconnectées :
 | **Dashboard Power BI** | Visualisation des indicateurs et alertes. |
 | **Interopérabilité Collibra** | Génération des fichiers d’export prêts à l’import. |
 
-📸 **Image 1 – Schéma d’architecture globale**
+**Image 1 – Schéma d’architecture globale**
 
 <img width="592" height="653" alt="image" src="https://github.com/user-attachments/assets/08d8141a-07a5-448f-afb0-da575cb070a8" />
  
 
 ---
 
-## ⚙️ Stack technique
+## Stack technique
 
 | Domaine | Outils / Technologies |
 |----------|----------------------|
@@ -51,7 +51,7 @@ L’application repose sur une architecture en 5 couches interconnectées :
 
 ---
 
-## 🧩 Modules fonctionnels
+## Modules fonctionnels
 
 ### 🔹 1. Documentation des règles de qualité
 - Import automatisé de modèles Excel.  
@@ -59,28 +59,28 @@ L’application repose sur une architecture en 5 couches interconnectées :
 - Association métier-technique (Business Term ↔ Data Field).  
 - Export de fichiers normalisés “Collibra Ready”.
 
-📸 **Image 2 – Interface Streamlit : Module Documentation (à insérer ici)**  
+**Image 2 – Interface Streamlit : Module Documentation**  
 
 <img width="548" height="243" alt="image" src="https://github.com/user-attachments/assets/a95a5490-aed5-4a17-892d-f7fd0a32f1f1" />
 
 
 ---
 
-### 🔹 2. Historisation et traçabilité
+### 2. Historisation et traçabilité
 - Chaque exécution crée une nouvelle version horodatée.  
 - Historisation complète dans Snowflake avec logs détaillés.  
 - Comparaison temporelle des versions (ex : anomalies + tendances).
 
 
 
-📸 **Image 3 – Schéma de tables Snowflake (à insérer ici)**  
+**Image 3 – Schéma de tables Snowflake**  
 <img width="684" height="272" alt="image" src="https://github.com/user-attachments/assets/a3b140ed-e0c0-4529-b5de-35cf3081cc3b" />
 
 
 
 ---
 
-### 🔹 3. Export “Collibra Ready”
+### 3. Export “Collibra Ready”
 - Génération automatique des fichiers prêts à l’import dans Collibra.  
 - Champs standardisés : `Rule_ID`, `Business_Term`, `Metric`, `Domain`, `Last_Update`.  
 - Contrôles de cohérence avant export.  
@@ -100,7 +100,7 @@ L’application repose sur une architecture en 5 couches interconnectées :
 
 ---
 
-## 📈 Résultats obtenus
+## Résultats obtenus
 
 | Indicateur | Résultat |
 |-------------|-----------|
@@ -110,11 +110,16 @@ L’application repose sur une architecture en 5 couches interconnectées :
 | **Utilisateurs actifs** | 25 Data Stewards & Managers |
 | **Gain de temps** | +60 % sur la documentation et les contrôles manuels |
 
-📸 **Image 7 – Graphique Power BI : évolution du score qualité (à insérer ici)**
+**Image 5 – Graphique Power BI : évolution du score qualité (à insérer ici)**
+
+<img width="1269" height="722" alt="image" src="https://github.com/user-attachments/assets/95a45e99-b611-4e90-a434-42014d84e9bc" />
+
+
+
 
 ---
 
-## 🗂️ Livrables produits
+## Livrables produits
 
 | Type | Description |
 |------|--------------|
@@ -124,11 +129,16 @@ L’application repose sur une architecture en 5 couches interconnectées :
 | **Exports Collibra** | Fichiers Excel/CSV standardisés |
 | **Fichiers de logs** | Historisation automatique des exécutions et erreurs |
 
-📸 **Image 8 – Exemple d’écran de logs ou exécution réussie (à insérer ici)**
+**Image 6 – Exemple d’écran de logs ou exécution réussie**
+
+<img width="600" height="354" alt="image" src="https://github.com/user-attachments/assets/053763f6-1419-4b52-8634-3bb02fe5b4d9" />
+
+
+
 
 ---
 
-## 🚧 Contraintes et pistes d’amélioration
+## Contraintes et pistes d’amélioration
 
 | Limite | Description | Solution envisagée |
 |---------|--------------|--------------------|
@@ -136,30 +146,31 @@ L’application repose sur une architecture en 5 couches interconnectées :
 | **Jeux de tests simulés** | Absence de données réelles au départ. | Génération automatique via scripts Python. |
 | **Évolutions Snowflake** | Modifications fréquentes des schémas. | Refactoriser le modèle de données + vues dynamiques. |
 
-📸 **Image 9 – Schéma de flux ETL ou pipeline Python (à insérer ici)**
+**Image 9 – Schéma de flux ETL ou pipeline Python (à insérer ici)**
 
 ---
 
-## 🌍 Impacts et valeur ajoutée
+## Impacts et valeur ajoutée
 
 - **Conformité accrue** (RGPD, BCBS 239) grâce à la traçabilité intégrée.  
 - **Réduction de la charge mentale** des Data Stewards via l’automatisation.  
 - **Collaboration renforcée** entre métiers, IT et Data Management.  
 - **Culture Data** consolidée au sein du DMO (meilleure appropriation des outils).
 
-📸 **Image 10 – Exemple de vue utilisateur ou workflow collaboratif (à insérer ici)**
+**Image 10 – Exemple de vue utilisateur ou workflow collaboratif (à insérer ici)**
 
 ---
 
-## 📚 Enseignements
+## Enseignements
 
 - L’importance d’une **architecture modulaire** pour faciliter les évolutions.  
 - La **co-construction avec les métiers** est clé pour l’adoption.  
 - Une bonne **gouvernance des métadonnées** améliore la performance globale des équipes data.  
+<img width="674" height="518" alt="image" src="https://github.com/user-attachments/assets/e2793f38-0e65-4513-a544-217b2cc94e96" />
 
 ---
 
-## 👨‍💻 Auteur
+## Auteur
 
 **Tariq TAMRABET**  
 *Data Governance Manager & Data Engineer – Crédit Agricole PFM*  
@@ -168,4 +179,4 @@ L’application repose sur une architecture en 5 couches interconnectées :
 
 ---
 
-📦 **Prochain projet → [Semantic Thesaurus](../semantic-thesaurus/)**
+**Prochain projet → [Semantic Thesaurus](../semantic-thesaurus/)**
