@@ -226,3 +226,4 @@ L’application repose sur une architecture en 5 couches interconnectées :
 =======
 *“Construire des données fiables, c’est construire la confiance dans les décisions.”*  
 >>>>>>> main
+
