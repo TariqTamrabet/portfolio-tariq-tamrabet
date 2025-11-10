@@ -150,7 +150,7 @@ L’application repose sur une architecture en 5 couches interconnectées :
 **Image 9 – Schéma de flux ETL ou pipeline Python**
 
 
-<img width="8000" height="100" alt="Untitled diagram-2025-11-10-150047" src="https://github.com/user-attachments/assets/1c8a6dc3-5b74-435e-b1de-59c94436756b" />
+<img width="8000" height="1000" alt="Untitled diagram-2025-11-10-150047" src="https://github.com/user-attachments/assets/1c8a6dc3-5b74-435e-b1de-59c94436756b" />
 
 
 ---
@@ -173,7 +173,7 @@ L’application repose sur une architecture en 5 couches interconnectées :
 - L’importance d’une **architecture modulaire** pour faciliter les évolutions.  
 - La **co-construction avec les métiers** est clé pour l’adoption.  
 - Une bonne **gouvernance des métadonnées** améliore la performance globale des équipes data.  
-<img width="320" height="200" alt="image" src="https://github.com/user-attachments/assets/e2793f38-0e65-4513-a544-217b2cc94e96" />
+
 
 ---
 
