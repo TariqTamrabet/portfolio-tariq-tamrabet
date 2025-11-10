@@ -112,7 +112,7 @@ L’application repose sur une architecture en 5 couches interconnectées :
 
 **Image 5 – Graphique Power BI : évolution du score qualité (à insérer ici)**
 
-<img width="1269" height="722" alt="image" src="https://github.com/user-attachments/assets/95a45e99-b611-4e90-a434-42014d84e9bc" />
+<img width="635" height="376" alt="image" src="https://github.com/user-attachments/assets/95a45e99-b611-4e90-a434-42014d84e9bc" />
 
 
 
