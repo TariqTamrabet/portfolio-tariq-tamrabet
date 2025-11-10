@@ -31,9 +31,10 @@ L’application repose sur une architecture en 5 couches interconnectées :
 | **Dashboard Power BI** | Visualisation des indicateurs et alertes. |
 | **Interopérabilité Collibra** | Génération des fichiers d’export prêts à l’import. |
 
-📸 **Image 1 – Schéma d’architecture globale <img width="592" height="653" alt="image" src="https://github.com/user-attachments/assets/08d8141a-07a5-448f-afb0-da575cb070a8" />
-)**  
-*(Suggestion : diagramme fonctionnel montrant Streamlit ↔ Python ↔ Snowflake ↔ Power BI / Collibra)*
+📸 **Image 1 – Schéma d’architecture globale**
+
+<img width="592" height="653" alt="image" src="https://github.com/user-attachments/assets/08d8141a-07a5-448f-afb0-da575cb070a8" />
+ 
 
 ---
 
