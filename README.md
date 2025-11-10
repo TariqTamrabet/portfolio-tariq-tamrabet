@@ -32,3 +32,4 @@ L’application repose sur une architecture modulaire intégrant plusieurs couch
 | **Interopérabilité (Collibra)** | Génération automatique des fichiers prêts à l’import dans le data catalog. |
 
 📊 **Schéma fonctionnel simplifié :**
+<img width="611" height="311" alt="image" src="https://github.com/user-attachments/assets/4b5b825e-7d56-4df1-8a13-c40178496900" />
