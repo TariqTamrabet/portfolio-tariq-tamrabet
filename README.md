@@ -159,6 +159,7 @@ L’application repose sur une architecture en 5 couches interconnectées :
 
 **Image 10 – Exemple de vue utilisateur ou workflow collaboratif (à insérer ici)**
 
+
 ---
 
 ## Enseignements
