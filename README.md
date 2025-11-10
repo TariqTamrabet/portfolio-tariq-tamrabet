@@ -1,228 +1,79 @@
-<<<<<<< data-governance-automation
-# Application de Data Governance & Data Quality Automation
+# 👋 Bonjour, je suis **Tariq Tamrabet**
 
-## Contexte
-
-Ce projet a été développé dans le cadre de mon alternance au **Crédit Agricole Personal Finance & Mobility (CAPFM)**, au sein du **Data Management Office (DMO)**.  
-Le DMO a pour mission de piloter la gouvernance et la qualité des données, en garantissant leur conformité, leur fiabilité et leur valorisation.  
-
-L’application a été conçue pour **automatiser la documentation, l’historisation et la visualisation** des règles de qualité des données dans un écosystème cloud.
-
----
-
-## Objectif du projet
-
-Développer une solution **end-to-end** pour :
-- Centraliser et normaliser les **règles de qualité**.  
-- Assurer leur **historisation et traçabilité** dans Snowflake.  
-- Générer automatiquement les **exports vers Collibra**.  
-- Permettre un **suivi visuel temps réel** via Power BI.  
-
----
-
-## Architecture générale
-
-L’application repose sur une architecture en 5 couches interconnectées :
-=======
-# Bonjour, je suis **Tariq Tamrabet**
-
-### Data Governance Manager & Data Engineer  
+### 🧠 Data Governance Manager & Data Engineer  
 📍 Lille, France | 📧 [tariq.tamrabet@hotmail.com](mailto:tariq.tamrabet@hotmail.com) | 🔗 [LinkedIn](https://linkedin.com/in/tariq-tamrabet)
 
 ---
 
-## À propos
->>>>>>> main
+## 🚀 À propos
 
-| Couche | Description |
-|--------|--------------|
-| **Interface Streamlit** | Interface ergonomique pour la saisie et la visualisation des règles qualité. |
-| **Back-end Python / SQL** | Traitement, transformation et historisation des données. |
-| **Base Snowflake** | Stockage et historisation des règles, logs et résultats. |
-| **Dashboard Power BI** | Visualisation des indicateurs et alertes. |
-| **Interopérabilité Collibra** | Génération des fichiers d’export prêts à l’import. |
+Référent en **gouvernance et qualité des données**, je conçois et déploie des solutions automatisées pour fiabiliser, documenter et valoriser les données au service de la performance métier.  
+Mon approche combine **rigueur technique** (Python, SQL, ETL, Cloud) et **vision fonctionnelle** (gouvernance, qualité, conformité RGPD, BCBS 239).
 
-**Image 1 – Schéma d’architecture globale**
-
-<img width="592" height="653" alt="image" src="https://github.com/user-attachments/assets/08d8141a-07a5-448f-afb0-da575cb070a8" />
- 
+Je m’intéresse particulièrement à la **structuration, la traçabilité et la valorisation des données** dans des environnements complexes, notamment bancaires et cloud.
 
 ---
 
-<<<<<<< data-governance-automation
-## Stack technique
-=======
-## Projets principaux
->>>>>>> main
+## 🧩 Projets principaux
+
+### 🔹 [1. Application de documentation et d’historisation Collibra](./projects/data-governance-automation)
+Automatisation complète de la documentation Collibra (glossaire, lineage, règles de qualité).  
+**Stack :** Python • Collibra API • Power BI • SQL  
+**Résultats :** gain de 60 % sur le temps de documentation et suivi automatisé de la qualité des données.
+
+---
+
+### 🔹 [2. Thésaurus sémantique bancaire (NLP / Word2Vec)](./projects/semantic-thesaurus)
+Modèle NLP entraîné sur des données métier pour identifier et harmoniser les synonymes dans le glossaire bancaire.  
+**Stack :** Python • spaCy • Word2Vec • Streamlit  
+**Résultats :** amélioration de 40 % de la recherche sémantique dans Collibra.
+
+---
+
+### 🔹 [3. Dashboard Power BI – Qualité de données & conformité RGPD](./projects/data-quality-dashboard)
+Création d’un tableau de bord Power BI pour visualiser les indicateurs de fiabilité et conformité.  
+**Stack :** Power BI • SQL • Collibra • Snowflake • Python  
+**Résultats :** réduction de 30 % des anomalies détectées et reporting automatisé auprès des Data Stewards.
+
+---
+
+## ⚙️ Compétences techniques
 
 | Domaine | Outils / Technologies |
-|----------|----------------------|
-| **Langages** | Python, SQL |
-| **Cloud / Stockage** | Snowflake |
-| **ETL & Automatisation** | Python (pandas, openpyxl, streamlit) |
-| **Visualisation** | Power BI |
-| **Interopérabilité** | Collibra API (préparée, non encore déployée) |
-| **Méthodologie** | Agile – Sprints hebdomadaires DMO |
+|----------|-----------------------|
+| **Langages** | Python • SQL • R • DAX |
+| **ETL / Data Engineering** | Talend • Dataiku • DBT • GCP • Snowflake |
+| **Gouvernance & Qualité** | Collibra • Data Catalog • Lineage • RGPD • BCBS 239 |
+| **Visualisation** | Power BI • Tableau |
+| **Méthodes** | Agile • Scrum • Documentation technique |
+| **Outils collaboratifs** | Jira • Confluence • Git • ServiceNow |
 
 ---
 
-## Modules fonctionnels
+## 🎓 Formation
 
-### 🔹 1. Documentation des règles de qualité
-- Import automatisé de modèles Excel.  
-- Normalisation du format et validation automatique des colonnes.  
-- Association métier-technique (Business Term ↔ Data Field).  
-- Export de fichiers normalisés “Collibra Ready”.
-
-**Image 2 – Interface Streamlit : Module Documentation**  
-
-<img width="548" height="243" alt="image" src="https://github.com/user-attachments/assets/a95a5490-aed5-4a17-892d-f7fd0a32f1f1" />
-
+🎓 **Diplôme d’ingénieur – Informatique & Statistiques**, *Polytech Lille* (2023–2025)  
+📚 **Classes préparatoires – MPSI/MP**, *Polytech Lille* (2020–2022)  
+🏅 **Baccalauréat scientifique (mention Très bien)**, *Lycée Sacré-Cœur, Tourcoing*  
+🗣️ **Langues :** Français (native), Anglais (C1 - TOEIC 845), Espagnol (C1)
 
 ---
 
-### 2. Historisation et traçabilité
-- Chaque exécution crée une nouvelle version horodatée.  
-- Historisation complète dans Snowflake avec logs détaillés.  
-- Comparaison temporelle des versions (ex : anomalies + tendances).
+## 💡 Centres d’intérêt
 
-
-
-**Image 3 – Schéma de tables Snowflake**  
-
-<img width="684" height="272" alt="image" src="https://github.com/user-attachments/assets/a3b140ed-e0c0-4529-b5de-35cf3081cc3b" />
-
-
+- Automatisation et intégration des processus data  
+- Gouvernance & conformité (BCBS 239, RGPD)  
+- Cloud & Data Architecture (GCP, Snowflake)  
+- NLP, sémantique et IA appliquée à la donnée  
+- Visualisation & storytelling data  
 
 ---
 
-<<<<<<< data-governance-automation
-### 3. Export “Collibra Ready”
-- Génération automatique des fichiers prêts à l’import dans Collibra.  
-- Champs standardisés : `Rule_ID`, `Business_Term`, `Metric`, `Domain`, `Last_Update`.  
-- Contrôles de cohérence avant export.  
-=======
-## Compétences techniques
->>>>>>> main
+## 📫 Contact
 
-
----
-
-<<<<<<< data-governance-automation
-### 🔹 4. Dashboard Power BI – Data Quality Monitoring
-- Suivi des KPI de fiabilité et conformité : complétude, cohérence, unicité, conformité.  
-- Visualisation dynamique des alertes et scores de qualité.  
-- Rapports exportables en PDF pour les comités DMO.
-
-📸 **Image 4 – Dashboard Power BI**  
-
-<img width="499" height="339" alt="image" src="https://github.com/user-attachments/assets/cf5effc9-0f98-4d9b-b865-ae635f1a9c8c" />
-
-
----
-
-## Résultats obtenus
-
-| Indicateur | Résultat |
-|-------------|-----------|
-| **Règles documentées** | +300 |
-| **KPI suivis** | 10 |
-| **Domaines couverts** | 5 (clients, crédit, risques, conformité, référentiels) |
-| **Utilisateurs actifs** | 25 Data Stewards & Managers |
-| **Gain de temps** | +60 % sur la documentation et les contrôles manuels |
-
-**Image 5 – Graphique Power BI : évolution du score qualité**
-
-<img width="635" height="376" alt="image" src="https://github.com/user-attachments/assets/95a45e99-b611-4e90-a434-42014d84e9bc" />
-
-
-
-
----
-
-## Livrables produits
-
-| Type | Description |
-|------|--------------|
-| **Application Web** | Interface Streamlit modulaire (documentation, historisation, export) |
-| **Pipeline ETL** | Python / SQL automatisant les traitements vers Snowflake |
-| **Tableaux de bord** | Power BI connectés en direct à Snowflake |
-| **Exports Collibra** | Fichiers Excel/CSV standardisés |
-| **Fichiers de logs** | Historisation automatique des exécutions et erreurs |
-
-**Image 6 – Exemple d’écran de logs ou exécution réussie**
-
-<img width="600" height="354" alt="image" src="https://github.com/user-attachments/assets/053763f6-1419-4b52-8634-3bb02fe5b4d9" />
-
-
-
-
----
-
-## Contraintes et pistes d’amélioration
-
-| Limite | Description | Solution envisagée |
-|---------|--------------|--------------------|
-| **API Collibra non implémentée** | Les exports se font encore par fichier Excel. | Prévoir un connecteur REST Collibra (OAuth 2.0). |
-| **Jeux de tests simulés** | Absence de données réelles au départ. | Génération automatique via scripts Python. |
-| **Évolutions Snowflake** | Modifications fréquentes des schémas. | Refactoriser le modèle de données + vues dynamiques. |
-
-**Image 9 – Schéma de flux**
-
-
-<img width="2634" height="482" alt="Untitled diagram-2025-11-10-152815" src="https://github.com/user-attachments/assets/e8970a5a-0645-45de-8969-73a3c4c186f2" />
-
-
-
----
-
-## Impacts et valeur ajoutée
-
-- **Conformité accrue** (RGPD, BCBS 239) grâce à la traçabilité intégrée.  
-- **Réduction de la charge mentale** des Data Stewards via l’automatisation.  
-- **Collaboration renforcée** entre métiers, IT et Data Management.  
-- **Culture Data** consolidée au sein du DMO (meilleure appropriation des outils).
-
-   <img width="320" height="200" alt="image" src="https://github.com/user-attachments/assets/e2793f38-0e65-4513-a544-217b2cc94e96" />
-
----
-
-## Enseignements
-
-- L’importance d’une **architecture modulaire** pour faciliter les évolutions.  
-- La **co-construction avec les métiers** est clé pour l’adoption.  
-- Une bonne **gouvernance des métadonnées** améliore la performance globale des équipes data.  
-=======
-## Formation
-
-**Diplôme d’ingénieur – Informatique & Statistiques**, *Polytech Lille* (2023–2025)  
-**Classes préparatoires – MPSI/MP**, *Polytech Lille* (2020–2022)  
-**Baccalauréat scientifique (mention Très bien)**, *Lycée Sacré-Cœur, Tourcoing*  
-**Langues :** Français (native), Anglais (C1 - TOEIC 845), Espagnol (C1)
-
----
-
-## Centres d’intérêt
->>>>>>> main
-
-
----
-
-<<<<<<< data-governance-automation
-## Auteur
-=======
-## Contact
->>>>>>> main
-
-**Tariq TAMRABET**  
-*Data Governance Manager & Data Engineer – Crédit Agricole PFM*  
 📧 [tariq.tamrabet@hotmail.com](mailto:tariq.tamrabet@hotmail.com)  
 🔗 [LinkedIn](https://linkedin.com/in/tariq-tamrabet)
 
 ---
 
-<<<<<<< data-governance-automation
-**Prochain projet → [Semantic Thesaurus](../semantic-thesaurus/)**
-=======
-*“Construire des données fiables, c’est construire la confiance dans les décisions.”*  
->>>>>>> main
+⭐ *“Construire des données fiables, c’est construire la confiance dans les décisions.”*  
