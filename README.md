@@ -93,7 +93,7 @@ L’application repose sur une architecture en 5 couches interconnectées :
 - Visualisation dynamique des alertes et scores de qualité.  
 - Rapports exportables en PDF pour les comités DMO.
 
-📸 **Image 4 – Dashboard Power BI **  
+📸 **Image 4 – Dashboard Power BI**  
 
 <img width="499" height="339" alt="image" src="https://github.com/user-attachments/assets/cf5effc9-0f98-4d9b-b865-ae635f1a9c8c" />
 
@@ -166,7 +166,7 @@ L’application repose sur une architecture en 5 couches interconnectées :
 - L’importance d’une **architecture modulaire** pour faciliter les évolutions.  
 - La **co-construction avec les métiers** est clé pour l’adoption.  
 - Une bonne **gouvernance des métadonnées** améliore la performance globale des équipes data.  
-<img width="674" height="518" alt="image" src="https://github.com/user-attachments/assets/e2793f38-0e65-4513-a544-217b2cc94e96" />
+<img width="320" height="200" alt="image" src="https://github.com/user-attachments/assets/e2793f38-0e65-4513-a544-217b2cc94e96" />
 
 ---
 
