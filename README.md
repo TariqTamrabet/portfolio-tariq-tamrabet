@@ -163,7 +163,7 @@ L’application repose sur une architecture en 5 couches interconnectées :
 - **Culture Data** consolidée au sein du DMO (meilleure appropriation des outils).
 
 **Image 10 – Exemple de vue utilisateur ou workflow collaboratif (à insérer ici)**
-
+<img width="320" height="200" alt="image" src="https://github.com/user-attachments/assets/e2793f38-0e65-4513-a544-217b2cc94e96" />
 
 ---
 
