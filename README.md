@@ -16,7 +16,7 @@ Je m’intéresse particulièrement à la **structuration, la traçabilité et l
 
 ## Projets principaux
 
-### 🔹 [1. Application de documentation et d’historisation Collibra](projects/data-governance-automation/README.md)
+### 🔹 [1. Application de documentation et d’historisation Collibra](https://github.com/users/TariqTamrabet/projects/1)
 
 Automatisation complète de la documentation Collibra (glossaire, lineage, règles de qualité).  
 **Stack :** Python • Collibra API • Power BI • SQL  
@@ -78,6 +78,7 @@ Création d’un tableau de bord Power BI pour visualiser les indicateurs de fia
 ---
 
 *“Construire des données fiables, c’est construire la confiance dans les décisions.”*  
+
 
 
 
