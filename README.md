@@ -150,7 +150,7 @@ L’application repose sur une architecture en 5 couches interconnectées :
 **Image 9 – Schéma de flux ETL ou pipeline Python**
 
 
-<img width="2000" height="200" alt="Untitled diagram-2025-11-10-150047" src="https://github.com/user-attachments/assets/1c8a6dc3-5b74-435e-b1de-59c94436756b" />
+<img width="3000" height="400" alt="Untitled diagram-2025-11-10-150047" src="https://github.com/user-attachments/assets/1c8a6dc3-5b74-435e-b1de-59c94436756b" />
 
 
 ---
