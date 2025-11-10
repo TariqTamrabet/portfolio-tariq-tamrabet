@@ -1,11 +1,11 @@
-# 👋 Bonjour, je suis **Tariq Tamrabet**
+# Bonjour, je suis **Tariq Tamrabet**
 
-### 🧠 Data Governance Manager & Data Engineer  
+### Data Governance Manager & Data Engineer  
 📍 Lille, France | 📧 [tariq.tamrabet@hotmail.com](mailto:tariq.tamrabet@hotmail.com) | 🔗 [LinkedIn](https://linkedin.com/in/tariq-tamrabet)
 
 ---
 
-## 🚀 À propos
+## À propos
 
 Référent en **gouvernance et qualité des données**, je conçois et déploie des solutions automatisées pour fiabiliser, documenter et valoriser les données au service de la performance métier.  
 Mon approche combine **rigueur technique** (Python, SQL, ETL, Cloud) et **vision fonctionnelle** (gouvernance, qualité, conformité RGPD, BCBS 239).
@@ -14,7 +14,7 @@ Je m’intéresse particulièrement à la **structuration, la traçabilité et l
 
 ---
 
-## 🧩 Projets principaux
+## Projets principaux
 
 ### 🔹 [1. Application de documentation et d’historisation Collibra](./projects/data-governance-automation)
 Automatisation complète de la documentation Collibra (glossaire, lineage, règles de qualité).  
@@ -37,7 +37,7 @@ Création d’un tableau de bord Power BI pour visualiser les indicateurs de fia
 
 ---
 
-## ⚙️ Compétences techniques
+## Compétences techniques
 
 | Domaine | Outils / Technologies |
 |----------|-----------------------|
@@ -50,16 +50,16 @@ Création d’un tableau de bord Power BI pour visualiser les indicateurs de fia
 
 ---
 
-## 🎓 Formation
+## Formation
 
-🎓 **Diplôme d’ingénieur – Informatique & Statistiques**, *Polytech Lille* (2023–2025)  
-📚 **Classes préparatoires – MPSI/MP**, *Polytech Lille* (2020–2022)  
-🏅 **Baccalauréat scientifique (mention Très bien)**, *Lycée Sacré-Cœur, Tourcoing*  
-🗣️ **Langues :** Français (native), Anglais (C1 - TOEIC 845), Espagnol (C1)
+**Diplôme d’ingénieur – Informatique & Statistiques**, *Polytech Lille* (2023–2025)  
+**Classes préparatoires – MPSI/MP**, *Polytech Lille* (2020–2022)  
+**Baccalauréat scientifique (mention Très bien)**, *Lycée Sacré-Cœur, Tourcoing*  
+**Langues :** Français (native), Anglais (C1 - TOEIC 845), Espagnol (C1)
 
 ---
 
-## 💡 Centres d’intérêt
+## Centres d’intérêt
 
 - Automatisation et intégration des processus data  
 - Gouvernance & conformité (BCBS 239, RGPD)  
@@ -69,11 +69,11 @@ Création d’un tableau de bord Power BI pour visualiser les indicateurs de fia
 
 ---
 
-## 📫 Contact
+## Contact
 
 📧 [tariq.tamrabet@hotmail.com](mailto:tariq.tamrabet@hotmail.com)  
 🔗 [LinkedIn](https://linkedin.com/in/tariq-tamrabet)
 
 ---
 
-⭐ *“Construire des données fiables, c’est construire la confiance dans les décisions.”*  
+*“Construire des données fiables, c’est construire la confiance dans les décisions.”*  
