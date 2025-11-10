@@ -60,7 +60,9 @@ L’application repose sur une architecture en 5 couches interconnectées :
 - Export de fichiers normalisés “Collibra Ready”.
 
 📸 **Image 2 – Interface Streamlit : Module Documentation (à insérer ici)**  
-*(Suggestion : capture du formulaire d’import ou de la liste des règles)*
+
+<img width="548" height="243" alt="image" src="https://github.com/user-attachments/assets/a95a5490-aed5-4a17-892d-f7fd0a32f1f1" />
+
 
 ---
 
@@ -69,21 +71,20 @@ L’application repose sur une architecture en 5 couches interconnectées :
 - Historisation complète dans Snowflake avec logs détaillés.  
 - Comparaison temporelle des versions (ex : anomalies + tendances).
 
-📸 **Image 3 – Interface Streamlit : Module Historisation (à insérer ici)**  
-*(Suggestion : capture montrant la liste des versions ou logs d’historique)*
 
-📸 **Image 4 – Schéma de tables Snowflake (à insérer ici)**  
-*(Suggestion : tables DQ_RULES, DQ_HISTORY, DQ_LOGS, etc.)*
+
+📸 **Image 3 – Schéma de tables Snowflake (à insérer ici)**  
+<img width="684" height="272" alt="image" src="https://github.com/user-attachments/assets/a3b140ed-e0c0-4529-b5de-35cf3081cc3b" />
+
+
 
 ---
 
 ### 🔹 3. Export “Collibra Ready”
 - Génération automatique des fichiers prêts à l’import dans Collibra.  
 - Champs standardisés : `Rule_ID`, `Business_Term`, `Metric`, `Domain`, `Last_Update`.  
-- Contrôles de cohérence avant export.
+- Contrôles de cohérence avant export.  
 
-📸 **Image 5 – Exemple de fichier exporté pour Collibra (à insérer ici)**  
-*(Suggestion : aperçu d’un fichier Excel généré automatiquement)*
 
 ---
 
@@ -92,8 +93,10 @@ L’application repose sur une architecture en 5 couches interconnectées :
 - Visualisation dynamique des alertes et scores de qualité.  
 - Rapports exportables en PDF pour les comités DMO.
 
-📸 **Image 6 – Dashboard Power BI (à insérer ici)**  
-*(Suggestion : capture des indicateurs clés et du graphique d’évolution)*
+📸 **Image 4 – Dashboard Power BI **  
+
+<img width="499" height="339" alt="image" src="https://github.com/user-attachments/assets/cf5effc9-0f98-4d9b-b865-ae635f1a9c8c" />
+
 
 ---
 
