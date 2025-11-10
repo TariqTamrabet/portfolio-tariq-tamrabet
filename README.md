@@ -147,7 +147,7 @@ L’application repose sur une architecture en 5 couches interconnectées :
 | **Jeux de tests simulés** | Absence de données réelles au départ. | Génération automatique via scripts Python. |
 | **Évolutions Snowflake** | Modifications fréquentes des schémas. | Refactoriser le modèle de données + vues dynamiques. |
 
-**Image 9 – Schéma de flux ETL ou pipeline Python**
+**Image 9 – Schéma de flux**
 
 
 <img width="2634" height="482" alt="Untitled diagram-2025-11-10-152815" src="https://github.com/user-attachments/assets/e8970a5a-0645-45de-8969-73a3c4c186f2" />
