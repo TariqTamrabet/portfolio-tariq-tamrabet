@@ -147,7 +147,7 @@ L’application repose sur une architecture en 5 couches interconnectées :
 | **Évolutions Snowflake** | Modifications fréquentes des schémas. | Refactoriser le modèle de données + vues dynamiques. |
 
 **Image 9 – Schéma de flux ETL ou pipeline Python**
-<img width="636" height="2816" alt="Untitled diagram-2025-11-10-145825" src="https://github.com/user-attachments/assets/8aa1dd9e-7b26-4efb-be21-5714fe502a11" />
+<img width="200" height="1000" alt="Untitled diagram-2025-11-10-145825" src="https://github.com/user-attachments/assets/8aa1dd9e-7b26-4efb-be21-5714fe502a11" />
 
 ---
 
