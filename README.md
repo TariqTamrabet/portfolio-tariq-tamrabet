@@ -110,7 +110,7 @@ L’application repose sur une architecture en 5 couches interconnectées :
 | **Utilisateurs actifs** | 25 Data Stewards & Managers |
 | **Gain de temps** | +60 % sur la documentation et les contrôles manuels |
 
-**Image 5 – Graphique Power BI : évolution du score qualité (à insérer ici)**
+**Image 5 – Graphique Power BI : évolution du score qualité**
 
 <img width="635" height="376" alt="image" src="https://github.com/user-attachments/assets/95a45e99-b611-4e90-a434-42014d84e9bc" />
 
@@ -146,7 +146,8 @@ L’application repose sur une architecture en 5 couches interconnectées :
 | **Jeux de tests simulés** | Absence de données réelles au départ. | Génération automatique via scripts Python. |
 | **Évolutions Snowflake** | Modifications fréquentes des schémas. | Refactoriser le modèle de données + vues dynamiques. |
 
-**Image 9 – Schéma de flux ETL ou pipeline Python (à insérer ici)**
+**Image 9 – Schéma de flux ETL ou pipeline Python**
+<img width="636" height="2816" alt="Untitled diagram-2025-11-10-145825" src="https://github.com/user-attachments/assets/8aa1dd9e-7b26-4efb-be21-5714fe502a11" />
 
 ---
 
