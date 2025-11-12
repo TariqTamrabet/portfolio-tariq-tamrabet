@@ -77,7 +77,15 @@ Création d’un tableau de bord Power BI pour visualiser les indicateurs de fia
 
 ---
 
+
+<style>
+footer { display: none !important; }
+</style>
+
+
+
 *“Construire des données fiables, c’est construire la confiance dans les décisions.”*  
+
 
 
 
