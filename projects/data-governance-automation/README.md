@@ -44,8 +44,6 @@ L’application repose sur une architecture en 5 couches interconnectées :
 
 
 ## Stack technique
-=======
-## Projets principaux
 
 
 | Domaine | Outils / Technologies |
@@ -94,8 +92,8 @@ L’application repose sur une architecture en 5 couches interconnectées :
 - Génération automatique des fichiers prêts à l’import dans Collibra.  
 - Champs standardisés : `Rule_ID`, `Business_Term`, `Metric`, `Domain`, `Last_Update`.  
 - Contrôles de cohérence avant export.  
-=======
-## Compétences techniques
+
+
 
 
 
