@@ -147,9 +147,7 @@ L’application repose sur une architecture **modulaire et interconnectée** com
 - **Collaboration accrue** : meilleure communication entre métiers, IT et Data Office.  
 - **Acculturation Data** : appropriation de la gouvernance par les utilisateurs finaux.  
 
-**Image 8 – Vue collaborative**
-
-<img width="320" height="200" alt="collaboration" src="https://github.com/user-attachments/assets/e2793f38-0e65-4513-a544-217b2cc94e96" />
+        <img width="320" height="200" alt="collaboration" src="https://github.com/user-attachments/assets/e2793f38-0e65-4513-a544-217b2cc94e96" />
 
 ---
 
