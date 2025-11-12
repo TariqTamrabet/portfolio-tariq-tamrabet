@@ -23,11 +23,6 @@ Développer une solution **end-to-end** pour :
 
 L’application repose sur une architecture en 5 couches interconnectées :
 
-# Bonjour, je suis **Tariq Tamrabet**
-
-### Data Governance Manager & Data Engineer  
-📍 Lille, France | 📧 [tariq.tamrabet@hotmail.com](mailto:tariq.tamrabet@hotmail.com) | 🔗 [LinkedIn](https://linkedin.com/in/tariq-tamrabet)
-
 ---
 
 ## À propos
