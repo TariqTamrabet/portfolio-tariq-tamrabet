@@ -1,36 +1,4 @@
-# =============================
-# 🎨 CONFIGURATION DU PORTFOLIO
-# =============================
-
-# --- Informations principales ---
-title: "Portfolio – Tariq Tamrabet"
-name: "Tariq Tamrabet"
-logo: ""C:\Users\tariq\Downloads\envato-labs-image-edit.png""        # chemin de ton logo
-description: >
-  Référent en gouvernance et qualité des données, 
-  spécialisé dans la structuration, la valorisation et 
-  l’automatisation des processus data. 
-  Découvrez mes projets en Data Governance, Data Engineering et NLP.
-
-# --- Liens externes ---
-email: "tariq.tamrabet@hotmail.com"
-linkedin: "https://linkedin.com/in/tariq-tamrabet"
-github: "https://github.com/TariqTamrabet"
-
-# --- Apparence du site ---
-theme: jekyll-theme-cayman
-show_downloads: false
-google_analytics: false
-markdown: kramdown
-
-
-# --- Thème couleur (optionnel pour thèmes Jekyll modernes) ---
-# si tu veux forcer un style cohérent
-colors:
-  primary: "#005f99"
-  secondary: "#00b894"
-  background: "#f8f9fa"
-  text: "#222"
-
-
-
+title: "Portfolio - Tariq Tamrabet"
+logo: "assets/logo.png"
+description: "Référent en gouvernance et qualité des données. Spécialisé en Data Governance, Data Engineering et automatisation des processus data."
+theme: cayman
