@@ -1,6 +1,5 @@
 title: "Portfolio - Tariq Tamrabet"
 logo: "assets/envato-labs-image-edit.png"
 description: "Référent en gouvernance et qualité des données. Spécialisé en Data Governance, Data Engineering et automatisation des processus data."
-theme : jekyll-remote-theme
-plugins:
-  - jekyll-remote-theme
+theme : jekyll-theme-minimal
+
