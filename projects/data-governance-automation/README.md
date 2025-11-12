@@ -182,7 +182,7 @@ L’application repose sur une architecture en 5 couches interconnectées :
 - **Collaboration renforcée** entre métiers, IT et Data Management.  
 - **Culture Data** consolidée au sein du DMO (meilleure appropriation des outils).
 
-   <img width="320" height="200" alt="image" src="https://github.com/user-attachments/assets/e2793f38-0e65-4513-a544-217b2cc94e96" />
+      <img width="320" height="200" alt="image" src="https://github.com/user-attachments/assets/e2793f38-0e65-4513-a544-217b2cc94e96" />
 
 ---
 
@@ -191,25 +191,8 @@ L’application repose sur une architecture en 5 couches interconnectées :
 - L’importance d’une **architecture modulaire** pour faciliter les évolutions.  
 - La **co-construction avec les métiers** est clé pour l’adoption.  
 - Une bonne **gouvernance des métadonnées** améliore la performance globale des équipes data.  
-=======
-## Formation
-
-**Diplôme d’ingénieur – Informatique & Statistiques**, *Polytech Lille* (2023–2025)  
-**Classes préparatoires – MPSI/MP**, *Polytech Lille* (2020–2022)  
-**Baccalauréat scientifique (mention Très bien)**, *Lycée Sacré-Cœur, Tourcoing*  
-**Langues :** Français (native), Anglais (C1 - TOEIC 845), Espagnol (C1)
-
----
-
-## Centres d’intérêt
 
 
-
----
-
-
-## Auteur
-=======
 ## Contact
 
 
@@ -220,11 +203,11 @@ L’application repose sur une architecture en 5 couches interconnectées :
 
 ---
 
-<<<<<<< data-governance-automation
+
 **Prochain projet → [Semantic Thesaurus](../semantic-thesaurus/)**
 =======
 *“Construire des données fiables, c’est construire la confiance dans les décisions.”*  
->>>>>>> main
+
 
 
 
