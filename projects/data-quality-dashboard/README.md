@@ -28,7 +28,8 @@ Le système repose sur une chaîne automatisée d’alimentation, de calcul et d
 
 **Image 1 – Schéma d’architecture du dashboard Data Quality**
 
-<img width="700" alt="architecture" src="https://github.com/user-attachments/assets/fc19106b-58f4-4a57-9450-2185ad10e1aa" />
+<img width="4762" height="452" alt="Untitled diagram-2025-11-13-143515" src="https://github.com/user-attachments/assets/3ef9b9d5-fbe9-4517-9e67-d2f2e67ab14b" />
+
 
 ## Stack technique
 
