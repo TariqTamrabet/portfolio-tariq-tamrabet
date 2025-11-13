@@ -76,7 +76,8 @@ L’architecture repose sur quatre modules complémentaires :
 
 📸 **Image 3 – Graphe sémantique Word2Vec**
 
-<img width="3085" height="472" alt="Untitled diagram-2025-11-13-141622" src="https://github.com/user-attachments/assets/f34e654f-a11e-45d0-ac78-bc036e8e50bf" />
+<img width="596" height="529" alt="image" src="https://github.com/user-attachments/assets/51e59fc6-ca09-47c9-a0bd-d6895865c9fd" />
+
 
 
 
