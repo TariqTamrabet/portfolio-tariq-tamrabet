@@ -114,9 +114,7 @@ L’architecture repose sur quatre modules complémentaires :
 | **Synonymes validés** | 420 |
 | **Données stockées** | 6 tables Snowflake (concepts, relations, logs, etc.) |
 
-**Image 5 – Graphe global des relations sémantiques**
 
-<img width="700" alt="graph" src="https://github.com/user-attachments/assets/fcb01069-8a46-4417-84f5-ec838cb0a9b4" />
 
 
 ## Livrables produits
@@ -129,9 +127,6 @@ L’architecture repose sur quatre modules complémentaires :
 | **Exports Collibra Ready** | Fichiers normalisés pour mise à jour du glossaire Collibra. |
 | **Documentation technique** | Guide d’utilisation, scripts Python et schémas Snowflake. |
 
-**Image 7 – Export Collibra Ready**
-
-<img width="650" alt="export" src="https://github.com/user-attachments/assets/46f9de30-22b4-4a8f-ae13-c10c734048a1" />
 
 
 
@@ -158,7 +153,7 @@ L’architecture repose sur quatre modules complémentaires :
 - **Réduction des redondances** et incohérences dans la documentation.  
 - **Intégration facilitée** des concepts dans la gouvernance globale des données.  
 
-📸 **Image 9 – Vue collaborative Streamlit**
+
 
 <img width="320" height="200" alt="collaboration" src="https://github.com/user-attachments/assets/e2793f38-0e65-4513-a544-217b2cc94e96" />
 
