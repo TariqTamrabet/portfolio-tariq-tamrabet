@@ -62,7 +62,7 @@ L’architecture repose sur quatre modules complémentaires :
 
 **Image 2 – Échantillon du glossaire nettoyé**
 
-<img width="636" height="2240" alt="Untitled diagram-2025-11-13-141203" src="https://github.com/user-attachments/assets/abbe5198-3055-42ee-a8d8-b59e1d117e39" />
+<img width="436" height="2240" alt="Untitled diagram-2025-11-13-141203" src="https://github.com/user-attachments/assets/abbe5198-3055-42ee-a8d8-b59e1d117e39" />
 
 
 
