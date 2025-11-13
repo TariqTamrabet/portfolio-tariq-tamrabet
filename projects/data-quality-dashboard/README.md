@@ -51,7 +51,8 @@ Le système repose sur une chaîne automatisée d’alimentation, de calcul et d
 
 **Image 2 – Exemple de tableau d’indicateurs consolidés**
 
-<img width="650" alt="kpi-table" src="https://github.com/user-attachments/assets/6e0e2f3e-33a8-4bc7-86aa-40dd8e2a9b35" />
+<img width="693" height="497" alt="image" src="https://github.com/user-attachments/assets/d869a103-aab9-4a12-a4e0-59ae3981da4e" />
+
 
 ### 2. Modélisation du Data Mart
 - Création d’un modèle logique de données centré sur les entités “Règle”, “KPI”, “Domaine”, “Score”.  
@@ -60,7 +61,8 @@ Le système repose sur une chaîne automatisée d’alimentation, de calcul et d
 
 **Image 3 – Schéma du modèle de données**
 
-<img width="680" alt="datamodel" src="https://github.com/user-attachments/assets/b2dc42c9-9a1b-45cd-a93c-ec8a5a4d3891" />
+<img width="292" height="253" alt="image" src="https://github.com/user-attachments/assets/512742a4-d9a8-4885-a410-6c08af116b98" />
+
 
 ### 3. Dashboard Power BI – Suivi global de la qualité
 - Tableau de bord interactif affichant les scores par domaine, tendance temporelle et taux d’erreurs.  
@@ -84,7 +86,8 @@ Le système repose sur une chaîne automatisée d’alimentation, de calcul et d
 
 **Image 5 – Évolution des scores de qualité**
 
-<img width="680" alt="trend" src="https://github.com/user-attachments/assets/83a8f9dc-c4df-4658-b540-bbd6e819c11c" />
+<img width="461" height="327" alt="image" src="https://github.com/user-attachments/assets/806809d7-062b-4a8e-af73-0806f1f1ba0f" />
+
 
 ## Livrables produits
 
@@ -96,9 +99,6 @@ Le système repose sur une chaîne automatisée d’alimentation, de calcul et d
 | **Rapports PDF** | Export automatique pour les comités DMO. |
 | **Documentation technique** | Dictionnaire de données et guide utilisateur. |
 
-**Image 6 – Exemple de rapport PDF exporté**
-
-<img width="600" alt="report" src="https://github.com/user-attachments/assets/965a64d8-82d4-4cfb-b8c3-86e34d8f11d8" />
 
 ## Contraintes et pistes d’amélioration
 
@@ -108,7 +108,7 @@ Le système repose sur une chaîne automatisée d’alimentation, de calcul et d
 | **Manque d’indicateurs métier** | KPI techniques prédominants. | Co-construction de KPI métier avec les équipes locales. |
 | **Visualisation statique** | Peu de scénarios prédictifs. | Ajout futur de modèles de scoring basés sur l’historique. |
 
-**Image 7 – Schéma d’évolution du processus DQ**
+**Image 6 – Schéma d’évolution du processus DQ**
 
 <img width="1100" alt="pipeline" src="https://github.com/user-attachments/assets/faa9d94c-0875-4d17-b6dc-01a4b4cda6e2" />
 
@@ -120,7 +120,7 @@ Le système repose sur une chaîne automatisée d’alimentation, de calcul et d
 - Fiabilisation du reporting réglementaire (BCBS 239, RGPD).  
 - Réduction des tâches manuelles grâce à l’automatisation du calcul et du suivi.
 
-**Image 8 – Tableau de bord consolidé (vue par domaine)**
+**Image 7 – Tableau de bord consolidé (vue par domaine)**
 
 <img width="700" alt="impact" src="https://github.com/user-attachments/assets/b3ad5b19-7a9a-4d55-9db8-5e2e2eb88419" />
 
