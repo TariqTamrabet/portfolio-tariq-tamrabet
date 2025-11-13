@@ -32,7 +32,7 @@ L’architecture repose sur quatre modules complémentaires :
 
 📸 **Image 1 – Schéma d’architecture sémantique**
 
-<img width="655" height="642" alt="Untitled diagram-2025-11-13-134101" src="https://github.com/user-attachments/assets/894c3242-0f8a-4151-96e1-0e139299d603" />
+<img width="355" height="642" alt="Untitled diagram-2025-11-13-134101" src="https://github.com/user-attachments/assets/894c3242-0f8a-4151-96e1-0e139299d603" />
 
 
 
