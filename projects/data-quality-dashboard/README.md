@@ -50,8 +50,13 @@ Le système repose sur une chaîne automatisée d’alimentation, de calcul et d
 - Agrégation par domaine, entité et type de donnée.  
 
 **Image 2 – Exemple de tableau d’indicateurs consolidés**
+DATE_CAPTURE	DOMAINE	COMMUNAUTE	TYPE_TEST	NOMBRE_CONTROLES	EXECUTIONS_JOUR	EXECUTIONS_SEMAINE	EXECUTIONS_MOIS	NOMBRE_REUSSIS	NOMBRE_ECHOUES	NOMBRE_EN_RETARD	NOMBRE_CRITIQUES_EN_RETARD	SCORE_QUALITE_MOYEN	MOYENNE_JOURS_ENTRE_MAJ	MAX_JOURS_SANS_MAJ	TENDANCE_HEBDOMADAIRE
+22/05/2024	SO_PRECONF_MDROC	CACF France	COMPLETUDE	2	0	0	0	1	1	0	0	86.9	11.5	20	Amélioration
+22/05/2024	SO_PRECONF_MDROC	CACF France	UNICITE	4	0	0	0	0	4	1	1	94.6	17.0	27	Stable
+22/05/2024	SO_PRECONF_MDROC	CACF France	VALIDITE	2	0	0	0	1	1	1	0	83.55	21.5	27	Stable
+<img width="1769" height="97" alt="image" src="https://github.com/user-attachments/assets/4789cc86-302a-459d-80c0-5e465e9948fc" />
 
-<img width="693" height="497" alt="image" src="https://github.com/user-attachments/assets/d869a103-aab9-4a12-a4e0-59ae3981da4e" />
+
 
 
 ### 2. Modélisation du Data Mart
@@ -72,7 +77,7 @@ Le système repose sur une chaîne automatisée d’alimentation, de calcul et d
 
 **Image 4 – Dashboard Power BI – Vue d’ensemble**
 
-<img width="700" alt="dashboard" src="https://github.com/user-attachments/assets/fc07f147-5e2b-4f26-a0eb-b8dc469d66d2" />
+<img width="693" height="497" alt="image" src="https://github.com/user-attachments/assets/d869a103-aab9-4a12-a4e0-59ae3981da4e" />
 
 ## Résultats obtenus
 
