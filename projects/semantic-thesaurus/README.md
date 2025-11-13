@@ -1,6 +1,6 @@
 # 🧠 Semantic Thesaurus – NLP & Word2Vec for Data Governance
 
-## 🧭 Contexte
+## Contexte
 
 Ce projet a été développé dans le cadre de ma mission au **Crédit Agricole Personal Finance & Mobility (CAPFM)**, au sein du **Data Management Office (DMO)**.  
 Le DMO souhaitait renforcer la cohérence sémantique du **glossaire métier** utilisé dans **Collibra**, afin d’améliorer la recherche, la classification et la documentation des termes de données.  
@@ -9,7 +9,7 @@ L’objectif était de concevoir un **moteur de détection automatique des synon
 
 ---
 
-## 🎯 Objectif du projet
+## Objectif du projet
 
 Développer un moteur sémantique permettant de :
 - Identifier automatiquement les **synonymes et variantes lexicales** des termes métiers.  
@@ -19,7 +19,7 @@ Développer un moteur sémantique permettant de :
 
 ---
 
-## 🧩 Architecture générale
+## Architecture générale
 
 L’architecture repose sur quatre modules complémentaires :  
 
@@ -32,7 +32,7 @@ L’architecture repose sur quatre modules complémentaires :
 
 📸 **Image 1 – Schéma d’architecture sémantique**
 
-<img width="700" alt="architecture" src="https://github.com/user-attachments/assets/fe5de27d-1b6c-4e59-bcc1-046289ebfd5d" />
+<img width="5632" height="164" alt="Untitled diagram-2025-11-13-131744" src="https://github.com/user-attachments/assets/026b9405-7940-4a0e-99ee-19366f3c516c" />
 
 ---
 
