@@ -140,7 +140,7 @@ L’architecture repose sur quatre modules complémentaires :
 
 **Image 8 – Pipeline NLP simplifié**
 
-<img width="614" height="138" alt="image" src="https://github.com/user-attachments/assets/8938ec29-03b0-41bb-b074-833c61ec5838" />
+<img width="214" height="50" alt="image" src="https://github.com/user-attachments/assets/8938ec29-03b0-41bb-b074-833c61ec5838" />
 
 
 
@@ -155,7 +155,8 @@ L’architecture repose sur quatre modules complémentaires :
 
 
 
-<img width="320" height="200" alt="collaboration" src="https://github.com/user-attachments/assets/e2793f38-0e65-4513-a544-217b2cc94e96" />
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/ca6696c1-6fac-4313-96a4-45667aa9e2ad" />
+
 
 
 
