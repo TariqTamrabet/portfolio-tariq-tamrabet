@@ -90,7 +90,7 @@ L’architecture repose sur quatre modules complémentaires :
 
 **Image 4 – Structure du data mart sémantique (Snowflake)**
 
-<img width="411" height="389" alt="image" src="https://github.com/user-attachments/assets/c4011c14-5e85-49ec-be5d-54c259e76e91" />
+<img width="511" height="489" alt="image" src="https://github.com/user-attachments/assets/c4011c14-5e85-49ec-be5d-54c259e76e91" />
 
 
 
@@ -140,7 +140,7 @@ L’architecture repose sur quatre modules complémentaires :
 
 **Image 8 – Pipeline NLP simplifié**
 
-<img width="214" height="50" alt="image" src="https://github.com/user-attachments/assets/8938ec29-03b0-41bb-b074-833c61ec5838" />
+<img width="414" height="250" alt="image" src="https://github.com/user-attachments/assets/8938ec29-03b0-41bb-b074-833c61ec5838" />
 
 
 
@@ -155,7 +155,7 @@ L’architecture repose sur quatre modules complémentaires :
 
 
 
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/ca6696c1-6fac-4313-96a4-45667aa9e2ad" />
+<img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/ca6696c1-6fac-4313-96a4-45667aa9e2ad" />
 
 
 
