@@ -32,15 +32,15 @@ L’architecture repose sur quatre modules complémentaires :
 
 📸 **Image 1 – Schéma d’architecture sémantique**
 
-<img width="255" height="742" alt="Untitled diagram-2025-11-13-134101" src="https://github.com/user-attachments/assets/894c3242-0f8a-4151-96e1-0e139299d603" />
+<img width="650" height="397" alt="image" src="https://github.com/user-attachments/assets/9bc57759-7f7a-4551-b006-26138df5ab04" />
 
 
 
 
 
----
 
-## ⚙️ Stack technique
+
+## Stack technique
 
 | Domaine | Outils / Technologies |
 |----------|----------------------|
@@ -51,20 +51,21 @@ L’architecture repose sur quatre modules complémentaires :
 | **Interopérabilité** | Collibra API (export des synonymes validés) |
 | **Méthodologie** | Agile – itérations avec les Data Stewards |
 
----
 
-## 🔍 Modules fonctionnels
+
+## Modules fonctionnels
 
 ### 🔹 1. Préparation et structuration du glossaire métier
 - Extraction et nettoyage des termes du glossaire Collibra.  
 - Suppression des doublons, homogénéisation des formats (majuscule, pluriel, accents).  
 - Enrichissement par ajout de métadonnées : domaine, business term, propriétaire, etc.  
 
-📸 **Image 2 – Échantillon du glossaire nettoyé**
+**Image 2 – Échantillon du glossaire nettoyé**
 
-<img width="600" alt="glossaire" src="https://github.com/user-attachments/assets/2c6378d3-9385-47a5-b8d8-74d1b8b06a89" />
+<img width="636" height="2240" alt="Untitled diagram-2025-11-13-141203" src="https://github.com/user-attachments/assets/abbe5198-3055-42ee-a8d8-b59e1d117e39" />
 
----
+
+
 
 ### 🔹 2. Entraînement du modèle NLP
 - Constitution d’un **corpus métier** à partir de descriptions, rapports et termes Collibra.  
@@ -77,18 +78,19 @@ L’architecture repose sur quatre modules complémentaires :
 <img width="583" height="523" alt="image" src="https://github.com/user-attachments/assets/9e3b3582-d00f-434d-9054-cdcb26a4cef7" />
 
 
----
+
 
 ### 🔹 3. Stockage et visualisation dans Snowflake
 - Insertion des résultats du modèle (termes, scores, liens sémantiques) dans des tables dédiées.  
 - Mise à jour automatique du **data mart sémantique** après chaque itération du modèle.  
 - Intégration de filtres pour l’exploration par domaine, langue ou type de relation.
 
-📸 **Image 4 – Structure du data mart sémantique (Snowflake)**
+**Image 4 – Structure du data mart sémantique (Snowflake)**
 
-<img width="700" alt="datamart" src="https://github.com/user-attachments/assets/4e5136e8-784a-47f0-a632-39a24863a877" />
+<img width="411" height="389" alt="image" src="https://github.com/user-attachments/assets/c4011c14-5e85-49ec-be5d-54c259e76e91" />
 
----
+
+
 
 ### 🔹 4. Interface Streamlit – Validation et export
 - Application Streamlit permettant de :
@@ -97,13 +99,9 @@ L’architecture repose sur quatre modules complémentaires :
   - Valider ou rejeter les suggestions.  
   - Exporter les synonymes validés au format “Collibra Ready”.  
 
-📸 **Image 5 – Interface Streamlit : Validation sémantique**
 
-<img width="640" alt="interface" src="https://github.com/user-attachments/assets/65dfb3a5-f4ef-4ee0-968a-cacdb8f8b4a3" />
 
----
-
-## 📈 Résultats obtenus
+## Résultats obtenus
 
 | Indicateur | Résultat |
 |-------------|-----------|
@@ -113,13 +111,12 @@ L’architecture repose sur quatre modules complémentaires :
 | **Synonymes validés** | 420 |
 | **Données stockées** | 6 tables Snowflake (concepts, relations, logs, etc.) |
 
-📊 **Image 6 – Graphe global des relations sémantiques**
+**Image 5 – Graphe global des relations sémantiques**
 
 <img width="700" alt="graph" src="https://github.com/user-attachments/assets/fcb01069-8a46-4417-84f5-ec838cb0a9b4" />
 
----
 
-## 📦 Livrables produits
+## Livrables produits
 
 | Type | Description |
 |------|--------------|
@@ -129,13 +126,13 @@ L’architecture repose sur quatre modules complémentaires :
 | **Exports Collibra Ready** | Fichiers normalisés pour mise à jour du glossaire Collibra. |
 | **Documentation technique** | Guide d’utilisation, scripts Python et schémas Snowflake. |
 
-📸 **Image 7 – Export Collibra Ready**
+**Image 7 – Export Collibra Ready**
 
 <img width="650" alt="export" src="https://github.com/user-attachments/assets/46f9de30-22b4-4a8f-ae13-c10c734048a1" />
 
----
 
-## ⚠️ Contraintes et pistes d’amélioration
+
+## Contraintes et pistes d’amélioration
 
 | Limite | Description | Solution envisagée |
 |---------|--------------|--------------------|
@@ -143,13 +140,14 @@ L’architecture repose sur quatre modules complémentaires :
 | **Ambiguïté lexicale** | Certains termes polysémiques génèrent de faux positifs. | Ajout d’un module de désambiguïsation contextuelle (spaCy). |
 | **Validation manuelle** | Validation humaine nécessaire pour 20 % des suggestions. | Intégration d’un module semi-supervisé d’apprentissage continu. |
 
-📈 **Image 8 – Pipeline NLP simplifié**
+**Image 8 – Pipeline NLP simplifié**
 
-<img width="1200" alt="pipeline" src="https://github.com/user-attachments/assets/6e2dcf6e-5b3a-4f7a-b134-5df3e86b77da" />
+<img width="614" height="138" alt="image" src="https://github.com/user-attachments/assets/8938ec29-03b0-41bb-b074-833c61ec5838" />
 
----
 
-## 💡 Impacts et valeur ajoutée
+
+
+## Impacts et valeur ajoutée
 
 - **Harmonisation du vocabulaire métier** à l’échelle du groupe.  
 - **Amélioration de la recherche Collibra** grâce à la reconnaissance des synonymes.  
@@ -161,28 +159,27 @@ L’architecture repose sur quatre modules complémentaires :
 
 <img width="320" height="200" alt="collaboration" src="https://github.com/user-attachments/assets/e2793f38-0e65-4513-a544-217b2cc94e96" />
 
----
 
-## 🧠 Enseignements
+
+## Enseignements
 
 - Le **traitement sémantique** est un levier puissant pour la gouvernance des données.  
 - La **collaboration entre data scientists et métiers** est clé pour la pertinence du modèle.  
 - L’intégration du NLP dans la gouvernance ouvre la voie à une **intelligence documentaire continue**.  
 
----
 
-## 👤 Contact
+## Contact
 
 **Tariq TAMRABET**  
 *Data Governance Manager & Data Engineer – Crédit Agricole PFM*  
 📧 [tariq.tamrabet@hotmail.com](mailto:tariq.tamrabet@hotmail.com)  
 🔗 [LinkedIn](https://linkedin.com/in/tariq-tamrabet)
 
----
+
 
 ### 🔗 Prochain projet → [Data Quality Dashboard](../data-quality-dashboard/)
 
----
+
 
 > *“Structurer le langage des données, c’est renforcer la compréhension des métiers.”*
 
