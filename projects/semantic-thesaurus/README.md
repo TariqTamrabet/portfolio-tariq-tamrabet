@@ -155,7 +155,7 @@ L’architecture repose sur quatre modules complémentaires :
 
 
 
-<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/ca6696c1-6fac-4313-96a4-45667aa9e2ad" />
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/ca6696c1-6fac-4313-96a4-45667aa9e2ad" />
 
 
 
