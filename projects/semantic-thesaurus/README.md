@@ -7,7 +7,7 @@ Le DMO souhaitait renforcer la cohérence sémantique du **glossaire métier** u
 
 L’objectif était de concevoir un **moteur de détection automatique des synonymes et relations sémantiques** basé sur des modèles de langage (NLP & Word2Vec), pour fiabiliser la gouvernance du vocabulaire métier.
 
----
+
 
 ## Objectif du projet
 
@@ -17,7 +17,7 @@ Développer un moteur sémantique permettant de :
 - Créer un **data mart sémantique** dans Snowflake pour le stockage et la visualisation des résultats.  
 - Offrir une **interface intuitive** pour la validation, la recherche et la visualisation des liens entre termes.  
 
----
+
 
 ## Architecture générale
 
@@ -74,7 +74,8 @@ L’architecture repose sur quatre modules complémentaires :
 
 📸 **Image 3 – Graphe sémantique Word2Vec**
 
-<img width="680" alt="word2vec" src="https://github.com/user-attachments/assets/3a24747e-9e2f-40e8-8c7f-3eb6cc428672" />
+<img width="583" height="523" alt="image" src="https://github.com/user-attachments/assets/9e3b3582-d00f-434d-9054-cdcb26a4cef7" />
+
 
 ---
 
