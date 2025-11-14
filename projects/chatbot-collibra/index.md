@@ -1,4 +1,7 @@
+---
 layout: project
+title: "Chatbot Sémantique Inter-Cloud"
+---
 
 # Chatbot Sémantique Inter-Cloud – Crédit Agricole PFM
 
