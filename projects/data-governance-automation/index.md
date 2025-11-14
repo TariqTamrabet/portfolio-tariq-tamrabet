@@ -82,9 +82,21 @@ L’application repose sur une architecture **modulaire et interconnectée** com
 - Comparaison temporelle pour détecter les écarts et évolutions.  
 
 ### Image 3 – Schéma de tables Snowflake
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/a3b140ed-e0c0-4529-b5de-35cf3081cc3b" alt="snowflake" style="max-width:100%;border-radius:10px;box-shadow:0 0 10px rgba(0,0,0,0.1);">
+<p align="center" style="margin: 40px 0;">
+  <img 
+    src="https://github.com/user-attachments/assets/a3b140ed-e0c0-4529-b5de-35cf3081cc3b" 
+    alt="snowflake" 
+    style="
+      display:block;
+      max-width:95%;
+      border: 2.5px solid #1f77b4; /* bleu data */
+      border-radius: 12px;
+      padding: 8px;
+      background-color: #f8f9fa;
+      box-shadow: 0 4px 18px rgba(0,0,0,0.15);
+    ">
 </p>
+
 
 ---
 
@@ -140,9 +152,24 @@ L’application repose sur une architecture **modulaire et interconnectée** com
 | **Évolution du schéma Snowflake** | Modifications fréquentes selon les domaines ; | Création de vues dynamiques et modèle unifié. |
 
 ### Image 7 – Schéma de flux ETL
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/e8970a5a-0645-45de-8969-73a3c4c186f2" alt="pipeline" style="max-width:100%;border-radius:10px;box-shadow:0 0 10px rgba(0,0,0,0.1);">
+<p align="center" style="margin: 50px 0;">
+  <img 
+    src="https://github.com/user-attachments/assets/e8970a5a-0645-45de-8969-73a3c4c186f2" 
+    alt="pipeline" 
+    style="
+      display:block;
+      width:190%;           /* agrandi environ x2 par rapport au max-width précédent */
+      max-width:190%;
+      border: 3px solid #1f77b4; /* bleu data */
+      border-radius: 12px;
+      padding: 10px;
+      background-color: #f8f9fa;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+      transform: scale(0.5);
+      transform-origin: center;
+    ">
 </p>
+
 
 ---
 
