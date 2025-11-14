@@ -28,13 +28,37 @@ Développer une solution **end-to-end** permettant de :
 
 L’application repose sur une architecture **modulaire et interconnectée** composée de cinq couches principales :
 
-| Couche | Description |
-|--------|--------------|
-| **Interface Streamlit** | Application web intuitive pour la saisie, la consultation et la validation des règles de qualité. |
-| **Back-end Python / SQL** | Gestion des traitements, transformations et contrôles de cohérence des données. |
-| **Snowflake Data Warehouse** | Stockage centralisé et historisation des règles, logs et résultats d’exécution. |
-| **Power BI Dashboard** | Suivi dynamique des indicateurs de fiabilité, conformité et performance. |
-| **Interopérabilité Collibra** | Génération automatisée des exports “Collibra Ready” pour intégration au data catalog. |
+<table style="margin: 40px auto; border-collapse: collapse; width: 90%; text-align: left; font-size: 16px;">
+  <thead>
+    <tr style="background-color: #f8f9fa; border-bottom: 2px solid #1f77b4;">
+      <th style="padding: 12px;">Couche</th>
+      <th style="padding: 12px;">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; font-weight: bold;">Interface Streamlit</td>
+      <td style="padding: 10px;">Application web intuitive pour la saisie, la consultation et la validation des règles de qualité.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; font-weight: bold;">Back-end Python / SQL</td>
+      <td style="padding: 10px;">Gestion des traitements, transformations et contrôles de cohérence des données.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; font-weight: bold;">Snowflake Data Warehouse</td>
+      <td style="padding: 10px;">Stockage centralisé et historisation des règles, logs et résultats d’exécution.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; font-weight: bold;">Power BI Dashboard</td>
+      <td style="padding: 10px;">Suivi dynamique des indicateurs de fiabilité, conformité et performance.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; font-weight: bold;">Interopérabilité Collibra</td>
+      <td style="padding: 10px;">Génération automatisée des exports “Collibra Ready” pour intégration au data catalog.</td>
+    </tr>
+  </tbody>
+</table>
+
 
 ### Image 1 – Schéma d’architecture globale
 <p align="center" style="margin: 40px 0;">
@@ -97,7 +121,7 @@ L’application repose sur une architecture **modulaire et interconnectée** com
     alt="snowflake" 
     style="
       display:block;
-      max-width:95%;
+      max-width:100%;
       border: 2.5px solid #000000; /* bleu data */
       border-radius: 12px;
       padding: 8px;
@@ -143,35 +167,105 @@ L’application repose sur une architecture **modulaire et interconnectée** com
 
 ## Résultats obtenus
 
-| Indicateur | Résultat |
-|-------------|-----------|
-| **Règles documentées** | + 300 |
-| **KPI suivis** | 10 |
-| **Domaines couverts** | 5 (Clients, Crédit, Risques, Conformité, Référentiels) |
-| **Utilisateurs actifs** | 25 Data Stewards & Managers |
-| **Gain de temps** | + 60 % sur la documentation et les contrôles manuels |
+<table style="margin: 40px auto; border-collapse: collapse; width: 80%; text-align: left; font-size: 16px; border: 2px solid #1f77b4; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+  <thead>
+    <tr style="background-color: #e9f2fb; border-bottom: 2px solid #1f77b4;">
+      <th style="padding: 12px;">Indicateur</th>
+      <th style="padding: 12px;">Résultat</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; font-weight: bold;">Règles documentées</td>
+      <td style="padding: 10px;">+ 300</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; font-weight: bold;">KPI suivis</td>
+      <td style="padding: 10px;">10</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; font-weight: bold;">Domaines couverts</td>
+      <td style="padding: 10px;">5 (Clients, Crédit, Risques, Conformité, Référentiels)</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; font-weight: bold;">Utilisateurs actifs</td>
+      <td style="padding: 10px;">25 Data Stewards & Managers</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; font-weight: bold;">Gain de temps</td>
+      <td style="padding: 10px;">+ 60 % sur la documentation et les contrôles manuels</td>
+    </tr>
+  </tbody>
+</table>
+
 
 ---
 
 ## Livrables produits
 
-| Type | Description |
-|------|--------------|
-| **Application Web** | Interface Streamlit modulaire (documentation, historisation, export). |
-| **Pipeline ETL** | Scripts Python / SQL automatisant les traitements et contrôles vers Snowflake. |
-| **Dashboards Power BI** | Tableaux connectés à Snowflake pour le suivi temps réel. |
-| **Exports Collibra** | Fichiers CSV / Excel prêts à l’import. |
-| **Logs d’exécution** | Historisation et traçabilité automatisées. |
+<table style="margin: 40px auto; border-collapse: collapse; width: 85%; text-align: left; font-size: 16px; border: 2px solid #1f77b4; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+  <thead>
+    <tr style="background-color: #e9f2fb; border-bottom: 2px solid #1f77b4;">
+      <th style="padding: 12px;">Type</th>
+      <th style="padding: 12px;">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; font-weight: bold;">Application Web</td>
+      <td style="padding: 10px;">Interface Streamlit modulaire (documentation, historisation, export).</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; font-weight: bold;">Pipeline ETL</td>
+      <td style="padding: 10px;">Scripts Python / SQL automatisant les traitements et contrôles vers Snowflake.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; font-weight: bold;">Dashboards Power BI</td>
+      <td style="padding: 10px;">Tableaux connectés à Snowflake pour le suivi temps réel.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; font-weight: bold;">Exports Collibra</td>
+      <td style="padding: 10px;">Fichiers CSV / Excel prêts à l’import.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; font-weight: bold;">Logs d’exécution</td>
+      <td style="padding: 10px;">Historisation et traçabilité automatisées.</td>
+    </tr>
+  </tbody>
+</table>
+
 
 ---
 
 ## Contraintes et pistes d’amélioration
 
-| Limite | Description | Solution envisagée |
-|---------|--------------|--------------------|
-| **API Collibra non implémentée** | Exports encore manuels ; | Déploiement d’un connecteur REST (OAuth 2.0). |
-| **Jeux de tests simulés** | Données réelles absentes au démarrage ; | Génération automatique via scripts Python. |
-| **Évolution du schéma Snowflake** | Modifications fréquentes selon les domaines ; | Création de vues dynamiques et modèle unifié. |
+<table style="margin: 40px auto; border-collapse: collapse; width: 90%; text-align: left; font-size: 16px; border: 2px solid #1f77b4; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+  <thead>
+    <tr style="background-color: #e9f2fb; border-bottom: 2px solid #1f77b4;">
+      <th style="padding: 12px;">Limite</th>
+      <th style="padding: 12px;">Description</th>
+      <th style="padding: 12px;">Solution envisagée</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; font-weight: bold;">API Collibra non implémentée</td>
+      <td style="padding: 10px;">Exports encore manuels</td>
+      <td style="padding: 10px;">Déploiement d’un connecteur REST (OAuth 2.0).</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; font-weight: bold;">Jeux de tests simulés</td>
+      <td style="padding: 10px;">Données réelles absentes au démarrage</td>
+      <td style="padding: 10px;">Génération automatique via scripts Python.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; font-weight: bold;">Évolution du schéma Snowflake</td>
+      <td style="padding: 10px;">Modifications fréquentes selon les domaines</td>
+      <td style="padding: 10px;">Création de vues dynamiques et modèle unifié.</td>
+    </tr>
+  </tbody>
+</table>
+
 
 ### Image 4 – Schéma de flux
 <p align="center" style="margin: 50px 0; text-align: center;">
