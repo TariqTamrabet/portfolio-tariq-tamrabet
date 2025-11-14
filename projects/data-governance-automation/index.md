@@ -113,9 +113,21 @@ L’application repose sur une architecture **modulaire et interconnectée** com
 - Rapports PDF générés pour les comités Data Quality.  
 
 ### Image 4 – Dashboard Power BI
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/cf5effc9-0f98-4d9b-b865-ae635f1a9c8c" alt="dashboard" style="max-width:100%;border-radius:10px;box-shadow:0 0 10px rgba(0,0,0,0.1);">
+<p align="center" style="margin: 50px 0;">
+  <img 
+    src="https://github.com/user-attachments/assets/cf5effc9-0f98-4d9b-b865-ae635f1a9c8c" 
+    alt="dashboard" 
+    style="
+      display:block;
+      width:95%;
+      border: 3px solid #1f77b4;          /* Bordure bleue data */
+      border-radius: 12px;                /* Coins arrondis */
+      padding: 10px;                      /* Espace interne */
+      background-color: #f8f9fa;          /* Fond clair */
+      box-shadow: 0 6px 20px rgba(0,0,0,0.15); /* Ombre douce */
+    ">
 </p>
+
 
 ---
 
