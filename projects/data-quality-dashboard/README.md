@@ -1,8 +1,6 @@
 ---
 layout: project
-title: "Data Quality Dashboard"
 ---
-
 
 
 
