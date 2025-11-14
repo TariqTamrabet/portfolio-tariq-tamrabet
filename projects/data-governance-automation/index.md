@@ -1,4 +1,8 @@
+---
 layout: project
+title: "Application de Data Governance & Data Quality Automation"
+---
+
 
 # Application de Data Governance & Data Quality Automation
 
