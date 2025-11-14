@@ -25,7 +25,8 @@ Concevoir une solution visuelle permettant à DWFA de :
 
 **Image 1 – Schéma de structure du dashboard**
 
-<img width="700" alt="structure" src="https://github.com/user-attachments/assets/f6a34ffb-3a6d-4f4e-9c3d-6b1b8a2e2f21" />
+<img width="7060" height="304" alt="Untitled diagram-2025-11-14-024754" src="https://github.com/user-attachments/assets/f6b03ebd-e758-47f1-a0b4-8696699fbf0b" />
+
 
 ## Stack technique
 
@@ -61,7 +62,8 @@ Concevoir une solution visuelle permettant à DWFA de :
 
 **Image 3 – Relation entre taux d’accès et population urbaine**
 
-<img width="650" alt="scatter1" src="https://github.com/user-attachments/assets/b18f2b32-0f53-4bb5-a145-8d0edfb743b1" />
+<img width="749" height="475" alt="image" src="https://github.com/user-attachments/assets/edcb10df-64f5-41dc-bce7-2f635a8f7605" />
+
 
 ### 2. Modernisation des services existants
 - Indicateurs : taux de services basiques vs taux de services sécurisés.  
