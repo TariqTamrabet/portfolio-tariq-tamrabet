@@ -1,4 +1,8 @@
+---
 layout: project
+title: "DWFA"
+---
+
 
 # DWFA – Tableau de Bord Mondial sur l’Accès à l’Eau Potable
 
