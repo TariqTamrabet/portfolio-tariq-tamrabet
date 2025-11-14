@@ -60,7 +60,7 @@ L’application repose sur une architecture **modulaire et interconnectée** com
 </table>
 
 
-### Image 1 – Schéma d’architecture globale
+### Image 1 – Schéma flux globale
 <p align="center" style="margin: 40px 0;">
   <img 
     src="https://github.com/user-attachments/assets/08d8141a-07a5-448f-afb0-da575cb070a8" 
@@ -267,7 +267,7 @@ L’application repose sur une architecture **modulaire et interconnectée** com
 </table>
 
 
-### Image 4 – Schéma de flux
+### Image 4 – Schéma flux ETL
 <p align="center" style="margin: 50px 0; text-align: center;">
   <img 
     src="https://github.com/user-attachments/assets/e8970a5a-0645-45de-8969-73a3c4c186f2" 
