@@ -81,7 +81,7 @@ L’application repose sur une architecture **modulaire et interconnectée** com
 - Historisation complète dans Snowflake avec enregistrement des logs ;  
 - Comparaison temporelle pour détecter les écarts et évolutions.  
 
-### Image 3 – Schéma de tables Snowflake
+### Image 2 – Schéma de tables Snowflake
 <p align="center" style="margin: 40px 0;">
   <img 
     src="https://github.com/user-attachments/assets/a3b140ed-e0c0-4529-b5de-35cf3081cc3b" 
@@ -89,7 +89,7 @@ L’application repose sur une architecture **modulaire et interconnectée** com
     style="
       display:block;
       max-width:95%;
-      border: 2.5px solid #1f77b4; /* bleu data */
+      border: 2.5px solid #000000; /* bleu data */
       border-radius: 12px;
       padding: 8px;
       background-color: #f8f9fa;
@@ -112,7 +112,7 @@ L’application repose sur une architecture **modulaire et interconnectée** com
 - Segmentation par domaine métier et niveau de criticité ;  
 - Rapports PDF générés pour les comités Data Quality.  
 
-### Image 4 – Dashboard Power BI
+### Image 3 – Dashboard Power BI
 <p align="center" style="margin: 40px 0;">
   <img 
     src="https://github.com/user-attachments/assets/cf5effc9-0f98-4d9b-b865-ae635f1a9c8c" 
@@ -120,7 +120,7 @@ L’application repose sur une architecture **modulaire et interconnectée** com
     style="
       display:block;
       width:75%;                        /* taille ajustée à 85 % */
-      border: 2.5px solid #1f77b4;       /* bordure bleue data */
+      border: 2.5px solid #000000;       /* bordure bleue data */
       border-radius: 12px;               /* coins arrondis */
       padding: 8px;                      /* marge interne légère */
       background-color: #f8f9fa;         /* fond clair */
@@ -164,18 +164,18 @@ L’application repose sur une architecture **modulaire et interconnectée** com
 | **Jeux de tests simulés** | Données réelles absentes au démarrage ; | Génération automatique via scripts Python. |
 | **Évolution du schéma Snowflake** | Modifications fréquentes selon les domaines ; | Création de vues dynamiques et modèle unifié. |
 
-### Image 7 – Schéma de flux
+### Image 4 – Schéma de flux
 <p align="center" style="margin: 50px 0; text-align: center;">
   <img 
     src="https://github.com/user-attachments/assets/e8970a5a-0645-45de-8969-73a3c4c186f2" 
     alt="pipeline" 
     style="
       display:inline-block;
-      width:90%;                        /* taille large mais proportionnée */
+      width:95%;                        /* taille large mais proportionnée */
       border: 3px solid #1f77b4;        /* bordure bleue data */
       border-radius: 12px;              /* coins arrondis */
       padding: 10px;
-      background-color: #f8f9fa;        /* fond clair */
+      background-color: #000000;        /* fond clair */
       box-shadow: 0 6px 20px rgba(0,0,0,0.2); /* ombre douce */
     ">
 </p>
