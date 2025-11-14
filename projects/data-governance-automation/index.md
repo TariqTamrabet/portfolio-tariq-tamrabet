@@ -67,7 +67,7 @@ L’application repose sur une architecture **modulaire et interconnectée** com
     alt="architecture" 
     style="
       display:inline-block;
-      width:95%;                /* agrandissement significatif et équilibré */
+      width:75%;                /* agrandissement significatif et équilibré */
       max-width:1200px;         /* limite de largeur pour éviter la déformation */
       border: 3px solid #000000; /* encadrement bleu data */
       border-radius: 12px;
