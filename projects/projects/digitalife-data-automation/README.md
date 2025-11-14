@@ -2,6 +2,7 @@
 
 ## Contexte
 
+
 Ce projet a été réalisé au sein de **Digitalife**, entreprise spécialisée dans la transformation digitale des processus commerciaux et administratifs B2B.  
 Dans le cadre de la migration vers l’ERP **Odoo**, l’objectif était de **fiabiliser et automatiser les référentiels de données clients et partenaires** afin d’assurer une intégration fluide, conforme et exploitable dans le nouveau système d’information.  
 
