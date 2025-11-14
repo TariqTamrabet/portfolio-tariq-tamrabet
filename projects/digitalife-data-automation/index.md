@@ -1,3 +1,5 @@
+layout: project
+
 # Projet Digitalife – Automatisation et fiabilisation des référentiels de données clients
 
 ## Contexte
