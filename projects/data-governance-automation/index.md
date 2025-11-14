@@ -37,9 +37,21 @@ L’application repose sur une architecture **modulaire et interconnectée** com
 | **Interopérabilité Collibra** | Génération automatisée des exports “Collibra Ready” pour intégration au data catalog. |
 
 ### Image 1 – Schéma d’architecture globale
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/08d8141a-07a5-448f-afb0-da575cb070a8" alt="architecture" style="max-width:100%;border-radius:10px;box-shadow:0 0 10px rgba(0,0,0,0.1);">
+<p align="center" style="margin: 40px 0;">
+  <img 
+    src="https://github.com/user-attachments/assets/08d8141a-07a5-448f-afb0-da575cb070a8" 
+    alt="architecture" 
+    style="
+      display:block;
+      max-width:95%;
+      border: 2.5px solid #ccc;
+      border-radius: 12px;
+      padding: 8px;
+      background-color: #fafafa;
+      box-shadow: 0 4px 18px rgba(0,0,0,0.15);
+    ">
 </p>
+
 
 ---
 
