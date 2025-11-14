@@ -12,7 +12,7 @@ Je m’intéresse particulièrement à la structuration, la traçabilité et la 
 
 ## Projets de Gouvernance & Qualité des Données
 
-### [1. Application de documentation et d’historisation Collibra](./projects/data-governance-automation/README.md)
+### [1. Application de documentation et d’historisation Collibra](./projects/data-governance-automation/index.md)
 Automatisation complète de la documentation et du suivi de la qualité des données dans Collibra.  
 **Stack :** Python • Collibra API • Power BI • SQL  
 **Résultats :** gain de 60 % sur le temps de documentation et pilotage automatisé de la data quality.
@@ -24,26 +24,26 @@ Tableau de bord interactif Power BI pour le suivi des indicateurs de qualité et
 
 ## Projets NLP, Sémantique & IA
 
-### [3. Thésaurus sémantique bancaire (NLP / Word2Vec)](./projects/semantic-thesaurus/README.md)
+### [3. Thésaurus sémantique bancaire (NLP / Word2Vec)](./projects/semantic-thesaurus/index.md)
 Modèle NLP entraîné sur le glossaire bancaire pour détecter et harmoniser les synonymes métier.  
 **Stack :** Python • spaCy • Word2Vec • Streamlit  
 **Résultats :** amélioration de 40 % de la recherche sémantique dans Collibra.
 
-### [4. Chatbot Sémantique Inter-Cloud – Crédit Agricole](./projects/chatbot-collibra/README.md)
+### [4. Chatbot Sémantique Inter-Cloud – Crédit Agricole](./projects/chatbot-collibra/index.md)
 Chatbot connecté entre GCP et AWS exploitant le moteur de Thesaurus pour reformuler et enrichir les requêtes métier.  
 **Stack :** Python • FastAPI • spaCy • GCP • AWS Lambda • Collibra API  
 **Résultats :** taux de reformulation correcte de 87 % et temps de réponse inférieur à 350 ms.
 
 ## Projets Cloud & Automatisation
 
-### [5. Projet Digitalife – Automatisation et fiabilisation des référentiels clients](./projects/digitalife-data-automation/README.md)
+### [5. Projet Digitalife – Automatisation et fiabilisation des référentiels clients](./projects/digitalife-data-automation/index.md)
 Automatisation du nettoyage, enrichissement et intégration des référentiels clients avant import ERP Odoo.  
 **Stack :** R • Python • SQL • PHP • Odoo • API BCE  
 **Résultats :** plus de 100 000 lignes traitées par semaine, conformité RGPD totale, gain de productivité de 40 %.
 
 ## Projets Data for Good
 
-### [6. DWFA – Tableau de bord mondial sur l’accès à l’eau potable](./projects/dwfa-water-dashboard/README.md)
+### [6. DWFA – Tableau de bord mondial sur l’accès à l’eau potable](./projects/dwfa-water-dashboard/index.md)
 Tableau de bord Tableau Software pour visualiser les indicateurs mondiaux d’accès à l’eau potable et à l’assainissement.  
 **Stack :** Tableau • SQL • Données Banque Mondiale & OMS  
 **Résultats :** outil décisionnel pour la planification des actions de l’ONG DWFA (190 pays analysés).
@@ -85,4 +85,5 @@ footer { display: none !important; }
 </style>
 
 *“Construire des données fiables, c’est construire la confiance dans les décisions.”*
+
 
