@@ -43,7 +43,7 @@ L’application repose sur une architecture **modulaire et interconnectée** com
     alt="architecture" 
     style="
       display:block;
-      max-width:95%;
+      max-width:105%;
       border: 2.5px solid #ccc;
       border-radius: 12px;
       padding: 8px;
@@ -57,14 +57,23 @@ L’application repose sur une architecture **modulaire et interconnectée** com
 
 ## Stack technique
 
-| Domaine | Outils / Technologies |
-|----------|----------------------|
-| **Langages** | Python, SQL |
-| **Cloud / Stockage** | Snowflake |
-| **ETL & Automatisation** | Python (pandas, openpyxl, streamlit) |
-| **Visualisation** | Power BI |
-| **Interopérabilité** | Collibra API (préparée, en phase d’intégration) |
-| **Méthodologie** | Agile – sprints hebdomadaires DMO |
+<table style="margin: 40px auto; border-collapse: collapse; width: 90%; text-align: left; font-size: 16px;">
+  <thead>
+    <tr style="background-color: #f8f9fa; border-bottom: 2px solid #1f77b4;">
+      <th style="padding: 10px;">Domaine</th>
+      <th style="padding: 10px;">Outils / Technologies</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="padding: 10px; font-weight: bold;">Langages</td><td style="padding: 10px;">Python, SQL</td></tr>
+    <tr><td style="padding: 10px; font-weight: bold;">Cloud / Stockage</td><td style="padding: 10px;">Snowflake</td></tr>
+    <tr><td style="padding: 10px; font-weight: bold;">ETL & Automatisation</td><td style="padding: 10px;">Python (pandas, openpyxl, streamlit)</td></tr>
+    <tr><td style="padding: 10px; font-weight: bold;">Visualisation</td><td style="padding: 10px;">Power BI</td></tr>
+    <tr><td style="padding: 10px; font-weight: bold;">Interopérabilité</td><td style="padding: 10px;">Collibra API (préparée, en phase d’intégration)</td></tr>
+    <tr><td style="padding: 10px; font-weight: bold;">Méthodologie</td><td style="padding: 10px;">Agile – sprints hebdomadaires DMO</td></tr>
+  </tbody>
+</table>
+
 
 ---
 
