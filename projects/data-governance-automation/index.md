@@ -119,7 +119,7 @@ L’application repose sur une architecture **modulaire et interconnectée** com
     alt="dashboard" 
     style="
       display:block;
-      width:85%;                        /* taille ajustée à 85 % */
+      width:75%;                        /* taille ajustée à 85 % */
       border: 2.5px solid #1f77b4;       /* bordure bleue data */
       border-radius: 12px;               /* coins arrondis */
       padding: 8px;                      /* marge interne légère */
@@ -164,7 +164,7 @@ L’application repose sur une architecture **modulaire et interconnectée** com
 | **Jeux de tests simulés** | Données réelles absentes au démarrage ; | Génération automatique via scripts Python. |
 | **Évolution du schéma Snowflake** | Modifications fréquentes selon les domaines ; | Création de vues dynamiques et modèle unifié. |
 
-### Image 7 – Schéma de flux ETL
+### Image 7 – Schéma de flux
 <p align="center" style="margin: 50px 0; text-align: center;">
   <img 
     src="https://github.com/user-attachments/assets/e8970a5a-0645-45de-8969-73a3c4c186f2" 
