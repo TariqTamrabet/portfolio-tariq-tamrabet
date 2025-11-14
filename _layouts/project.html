@@ -3,28 +3,44 @@ layout: default
 ---
 
 <style>
-  /* Supprime le header et le footer */
+  /* Masquer totalement le header et le footer globaux */
   header, footer {
     display: none !important;
   }
 
-  /* Largeur du texte adaptée pour lecture fluide */
+  /* Étendre le contenu sur toute la largeur */
   main.page-content {
-    max-width: 950px;
-    margin: 40px auto;
+    max-width: 100%;
+    margin: 0;
+    padding: 40px 80px;
     text-align: left;
   }
 
-  /* Lien retour en haut à gauche */
+  /* Lien de retour discret */
   .back-link {
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     font-weight: 500;
+    font-size: 15px;
   }
 
-  /* Style des titres */
+  /* Uniformiser les titres */
   h1, h2, h3 {
     text-align: left;
+  }
+
+  /* Ajuster les images pour qu'elles soient centrées et fluides */
+  img {
+    display: block;
+    margin: 20px auto;
+    max-width: 95%;
+    height: auto;
+  }
+
+  /* Rendre le texte bien aéré sur grand écran */
+  p, li {
+    font-size: 17px;
+    line-height: 1.7;
   }
 </style>
 
@@ -32,4 +48,3 @@ layout: default
   <a href="{{ '/' | relative_url }}" class="back-link">← Retour au portfolio</a>
   {{ content }}
 </div>
-
