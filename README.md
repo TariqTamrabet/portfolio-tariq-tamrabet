@@ -17,7 +17,7 @@ Automatisation complète de la documentation et du suivi de la qualité des donn
 **Stack :** Python • Collibra API • Power BI • SQL  
 **Résultats :** gain de 60 % sur le temps de documentation et pilotage automatisé de la data quality.
 
-### [2. Dashboard Power BI – Qualité de données & conformité RGPD](./projects/data-quality-dashboard/README.md)
+### [2. Dashboard Power BI – Qualité de données & conformité RGPD](./projects/data-quality-dashboard/index.md)
 Tableau de bord interactif Power BI pour le suivi des indicateurs de qualité et de conformité réglementaire.  
 **Stack :** Power BI • Python • SQL • Snowflake  
 **Résultats :** -70 % de temps de reporting et suivi centralisé des KPI qualité.
@@ -85,3 +85,4 @@ footer { display: none !important; }
 </style>
 
 *“Construire des données fiables, c’est construire la confiance dans les décisions.”*
+
