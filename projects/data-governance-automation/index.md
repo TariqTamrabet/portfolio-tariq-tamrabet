@@ -113,20 +113,21 @@ L’application repose sur une architecture **modulaire et interconnectée** com
 - Rapports PDF générés pour les comités Data Quality.  
 
 ### Image 4 – Dashboard Power BI
-<p align="center" style="margin: 50px 0;">
+<p align="center" style="margin: 40px 0;">
   <img 
     src="https://github.com/user-attachments/assets/cf5effc9-0f98-4d9b-b865-ae635f1a9c8c" 
     alt="dashboard" 
     style="
       display:block;
-      width:95%;
-      border: 3px solid #1f77b4;          /* Bordure bleue data */
-      border-radius: 12px;                /* Coins arrondis */
-      padding: 10px;                      /* Espace interne */
-      background-color: #f8f9fa;          /* Fond clair */
-      box-shadow: 0 6px 20px rgba(0,0,0,0.15); /* Ombre douce */
+      width:85%;                        /* taille ajustée à 85 % */
+      border: 2.5px solid #1f77b4;       /* bordure bleue data */
+      border-radius: 12px;               /* coins arrondis */
+      padding: 8px;                      /* marge interne légère */
+      background-color: #f8f9fa;         /* fond clair */
+      box-shadow: 0 4px 16px rgba(0,0,0,0.15); /* ombre douce */
     ">
 </p>
+
 
 
 ---
@@ -164,23 +165,21 @@ L’application repose sur une architecture **modulaire et interconnectée** com
 | **Évolution du schéma Snowflake** | Modifications fréquentes selon les domaines ; | Création de vues dynamiques et modèle unifié. |
 
 ### Image 7 – Schéma de flux ETL
-<p align="center" style="margin: 50px 0;">
+<p align="center" style="margin: 50px 0; text-align: center;">
   <img 
     src="https://github.com/user-attachments/assets/e8970a5a-0645-45de-8969-73a3c4c186f2" 
     alt="pipeline" 
     style="
-      display:block;
-      width:190%;           /* agrandi environ x2 par rapport au max-width précédent */
-      max-width:190%;
-      border: 3px solid #1f77b4; /* bleu data */
-      border-radius: 12px;
+      display:inline-block;
+      width:90%;                        /* taille large mais proportionnée */
+      border: 3px solid #1f77b4;        /* bordure bleue data */
+      border-radius: 12px;              /* coins arrondis */
       padding: 10px;
-      background-color: #f8f9fa;
-      box-shadow: 0 6px 20px rgba(0,0,0,0.2);
-      transform: scale(0.5);
-      transform-origin: center;
+      background-color: #f8f9fa;        /* fond clair */
+      box-shadow: 0 6px 20px rgba(0,0,0,0.2); /* ombre douce */
     ">
 </p>
+
 
 
 ---
