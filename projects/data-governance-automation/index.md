@@ -119,7 +119,7 @@ L’application repose sur une architecture **modulaire et interconnectée** com
     alt="dashboard" 
     style="
       display:block;
-      width:75%;                        /* taille ajustée à 85 % */
+      width:80%;                        /* taille ajustée à 85 % */
       border: 2.5px solid #000000;       /* bordure bleue data */
       border-radius: 12px;               /* coins arrondis */
       padding: 8px;                      /* marge interne légère */
@@ -172,10 +172,10 @@ L’application repose sur une architecture **modulaire et interconnectée** com
     style="
       display:inline-block;
       width:95%;                        /* taille large mais proportionnée */
-      border: 3px solid #1f77b4;        /* bordure bleue data */
-      border-radius: 12px;              /* coins arrondis */
-      padding: 10px;
-      background-color: #000000;        /* fond clair */
+      border: 2.5px solid #000000;       /* bordure bleue data */
+      border-radius: 12px;               /* coins arrondis */
+      padding: 8px;                      /* marge interne légère */
+      background-color: #f8f9fa;        /* fond clair */
       box-shadow: 0 6px 20px rgba(0,0,0,0.2); /* ombre douce */
     ">
 </p>
