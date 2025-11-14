@@ -83,7 +83,8 @@ Mettre en place une solution d’automatisation des flux de données permettant 
 
 **Image 3 – Exemple de pipeline de traitement et enrichissement**
 
-<img width="700" alt="pipeline" src="https://github.com/user-attachments/assets/7a3b76de-7d8f-4ab5-91ad-86e89cf176a3" />
+<img width="5966" height="595" alt="Untitled diagram-2025-11-14-022749" src="https://github.com/user-attachments/assets/2d8b8c97-fe14-4623-aad4-593ec10d48a3" />
+
 
 ## Livrables produits
 
