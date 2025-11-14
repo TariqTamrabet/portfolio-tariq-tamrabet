@@ -4,39 +4,42 @@ layout: default
 
 {% raw %}
 <style>
-  /* Supprimer totalement le header et footer globaux */
-  header, footer {
+  /* Supprimer le header, la sidebar et le footer globaux */
+  header, footer, .page-header, .site-header, .site-footer, .profile-sidebar {
     display: none !important;
   }
 
-  /* Pleine largeur fluide */
+  /* Centrer le contenu et l'étendre sur une largeur lisible */
   main.page-content {
-    width: 100%;
-    max-width: none;
-    margin: 0;
-    padding: 40px 80px;
-    text-align: left;
+    max-width: 1000px; /* largeur idéale pour la lecture */
+    margin: 50px auto;
+    padding: 20px 40px;
+    text-align: justify;
   }
 
-  /* Lien retour */
+  /* Titre centré */
+  h1, h2, h3 {
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  /* Lien de retour au portfolio */
   .back-link {
     display: block;
-    margin-bottom: 30px;
-    font-weight: 500;
+    margin-bottom: 40px;
     font-size: 15px;
-  }
-
-  h1, h2, h3 {
     text-align: left;
   }
 
+  /* Images centrées et redimensionnées automatiquement */
   img {
     display: block;
     margin: 20px auto;
-    max-width: 95%;
+    max-width: 90%;
     height: auto;
   }
 
+  /* Texte lisible et aéré */
   p, li {
     font-size: 17px;
     line-height: 1.7;
