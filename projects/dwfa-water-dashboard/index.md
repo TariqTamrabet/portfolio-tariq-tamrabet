@@ -1,3 +1,5 @@
+layout: project
+
 # DWFA – Tableau de Bord Mondial sur l’Accès à l’Eau Potable
 
 ## Contexte
