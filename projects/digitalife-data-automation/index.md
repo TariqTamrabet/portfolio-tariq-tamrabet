@@ -1,4 +1,8 @@
+---
 layout: project
+title: "Projet Digitalife"
+---
+
 
 # Projet Digitalife – Automatisation et fiabilisation des référentiels de données clients
 
