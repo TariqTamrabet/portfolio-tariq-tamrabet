@@ -1,3 +1,5 @@
+layout: project
+
 # Chatbot Sémantique Inter-Cloud – Crédit Agricole PFM
 
 ## Contexte
