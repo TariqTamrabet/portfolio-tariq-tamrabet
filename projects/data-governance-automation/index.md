@@ -61,18 +61,19 @@ L’application repose sur une architecture **modulaire et interconnectée** com
 
 
 ### Image 1 – Schéma flux globale
-<p align="center" style="margin: 40px 0;">
+<p align="center" style="margin: 50px 0; text-align: center;">
   <img 
     src="https://github.com/user-attachments/assets/08d8141a-07a5-448f-afb0-da575cb070a8" 
     alt="architecture" 
     style="
-      display:block;
-      max-width:105%;
-      border: 2.5px solid #ccc;
+      display:inline-block;
+      width:95%;                /* agrandissement significatif et équilibré */
+      max-width:1200px;         /* limite de largeur pour éviter la déformation */
+      border: 3px solid #000000; /* encadrement bleu data */
       border-radius: 12px;
-      padding: 8px;
-      background-color: #fafafa;
-      box-shadow: 0 4px 18px rgba(0,0,0,0.15);
+      padding: 12px;
+      background-color: #f8f9fa;
+      box-shadow: 0 6px 22px rgba(0,0,0,0.25);
     ">
 </p>
 
@@ -115,20 +116,22 @@ L’application repose sur une architecture **modulaire et interconnectée** com
 - Comparaison temporelle pour détecter les écarts et évolutions.  
 
 ### Image 2 – Schéma de tables Snowflake
-<p align="center" style="margin: 40px 0;">
+<p align="center" style="margin: 50px 0; text-align: center;">
   <img 
     src="https://github.com/user-attachments/assets/a3b140ed-e0c0-4529-b5de-35cf3081cc3b" 
     alt="snowflake" 
     style="
-      display:block;
-      max-width:100%;
-      border: 2.5px solid #000000; /* bleu data */
-      border-radius: 12px;
-      padding: 8px;
-      background-color: #f8f9fa;
-      box-shadow: 0 4px 18px rgba(0,0,0,0.15);
+      display:inline-block;
+      width:90%;                 /* agrandissement fluide */
+      max-width:1200px;          /* limite raisonnable pour éviter le débordement */
+      border: 3px solid #1f77b4; /* bleu data professionnel */
+      border-radius: 12px;       /* coins arrondis doux */
+      padding: 12px;             /* espace interne */
+      background-color: #f8f9fa; /* fond clair élégant */
+      box-shadow: 0 6px 22px rgba(0,0,0,0.25); /* ombre douce */
     ">
 </p>
+
 
 
 ---
@@ -152,8 +155,7 @@ L’application repose sur une architecture **modulaire et interconnectée** com
     alt="dashboard" 
     style="
       display:block;
-      width:80%;                        /* taille ajustée à 85 % */
-      border: 2.5px solid #000000;       /* bordure bleue data */
+      width:70%;                        /* taille ajustée à 85 % */
       border-radius: 12px;               /* coins arrondis */
       padding: 8px;                      /* marge interne légère */
       background-color: #f8f9fa;         /* fond clair */
@@ -268,20 +270,22 @@ L’application repose sur une architecture **modulaire et interconnectée** com
 
 
 ### Image 4 – Schéma flux ETL
-<p align="center" style="margin: 50px 0; text-align: center;">
+<p align="center" style="margin: 60px 0; text-align: center;">
   <img 
     src="https://github.com/user-attachments/assets/e8970a5a-0645-45de-8969-73a3c4c186f2" 
     alt="pipeline" 
     style="
       display:inline-block;
-      width:95%;                        /* taille large mais proportionnée */
-      border: 2.5px solid #000000;       /* bordure bleue data */
-      border-radius: 12px;               /* coins arrondis */
-      padding: 8px;                      /* marge interne légère */
-      background-color: #f8f9fa;        /* fond clair */
-      box-shadow: 0 6px 20px rgba(0,0,0,0.2); /* ombre douce */
+      width:92%;                 /* image bien visible sans dépasser */
+      max-width:1300px;          /* limite pour les grands écrans */
+      border: 3px solid #1f77b4; /* bleu data professionnel */
+      border-radius: 12px;       /* coins arrondis */
+      padding: 10px;             /* marge interne douce */
+      background-color: #f8f9fa; /* fond clair et élégant */
+      box-shadow: 0 8px 25px rgba(0,0,0,0.25); /* ombre plus profonde */
     ">
 </p>
+
 
 
 
