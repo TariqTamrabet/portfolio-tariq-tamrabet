@@ -1,3 +1,5 @@
+layout: project
+
 # Application de Data Governance & Data Quality Automation
 
 ## Contexte
