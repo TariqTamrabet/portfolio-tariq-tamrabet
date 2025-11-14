@@ -1,51 +1,45 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <title>{{ page.title }}</title>
+    <style>
+      header, footer, .page-header, .site-header, .site-footer, .profile-sidebar {
+        display: none !important;
+      }
+      main.page-content {
+        max-width: 1000px;
+        margin: 50px auto;
+        padding: 20px 40px;
+        text-align: justify;
+      }
+      h1, h2, h3 {
+        text-align: center;
+        margin-top: 30px;
+      }
+      .back-link {
+        display: block;
+        margin-bottom: 40px;
+        font-size: 15px;
+        text-align: left;
+      }
+      img {
+        display: block;
+        margin: 20px auto;
+        max-width: 90%;
+        height: auto;
+      }
+      p, li {
+        font-size: 17px;
+        line-height: 1.7;
+      }
+    </style>
+  </head>
 
-<style>
-  /* Supprimer le header, la sidebar et le footer globaux */
-  header, footer, .page-header, .site-header, .site-footer, .profile-sidebar {
-    display: none !important;
-  }
-
-  /* Centrer le contenu et l'étendre sur une largeur lisible */
-  main.page-content {
-    max-width: 1000px; /* largeur idéale pour la lecture */
-    margin: 50px auto;
-    padding: 20px 40px;
-    text-align: justify;
-  }
-
-  /* Titre centré */
-  h1, h2, h3 {
-    text-align: center;
-    margin-top: 30px;
-  }
-
-  /* Lien de retour au portfolio */
-  .back-link {
-    display: block;
-    margin-bottom: 40px;
-    font-size: 15px;
-    text-align: left;
-  }
-
-  /* Images centrées et redimensionnées automatiquement */
-  img {
-    display: block;
-    margin: 20px auto;
-    max-width: 90%;
-    height: auto;
-  }
-
-  /* Texte lisible et aéré */
-  p, li {
-    font-size: 17px;
-    line-height: 1.7;
-  }
-</style>
-
-<div class="project-page">
-  <a href="{{ '/' | relative_url }}" class="back-link">← Retour au portfolio</a>
-  {{ content }}
-</div>
+  <body>
+    <main class="page-content">
+      <a href="{{ '/' | relative_url }}" class="back-link">← Retour au portfolio</a>
+      {{ content }}
+    </main>
+  </body>
+</html>
