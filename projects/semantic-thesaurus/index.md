@@ -1,4 +1,8 @@
+---
 layout: project
+title: "Semantic Thesauru"
+---
+
 
 # Semantic Thesaurus – NLP & Word2Vec for Data Governance
 
