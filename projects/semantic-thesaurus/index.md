@@ -1,3 +1,5 @@
+layout: project
+
 # Semantic Thesaurus – NLP & Word2Vec for Data Governance
 
 ## Contexte
