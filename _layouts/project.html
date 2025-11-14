@@ -1,1 +1,35 @@
+---
+layout: default
+---
+
+<style>
+  /* Supprime le header et le footer */
+  header, footer {
+    display: none !important;
+  }
+
+  /* Largeur du texte adaptée pour lecture fluide */
+  main.page-content {
+    max-width: 950px;
+    margin: 40px auto;
+    text-align: left;
+  }
+
+  /* Lien retour en haut à gauche */
+  .back-link {
+    display: block;
+    margin-bottom: 20px;
+    font-weight: 500;
+  }
+
+  /* Style des titres */
+  h1, h2, h3 {
+    text-align: left;
+  }
+</style>
+
+<div class="project-page">
+  <a href="{{ '/' | relative_url }}" class="back-link">← Retour au portfolio</a>
+  {{ content }}
+</div>
 
