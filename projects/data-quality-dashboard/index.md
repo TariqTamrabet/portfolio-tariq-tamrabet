@@ -3,8 +3,6 @@ layout: project
 title: "Data Quality Dashboard"
 ---
 
-
-
 # Data Quality Dashboard – Suivi et Pilotage des Indicateurs de Qualité
 
 ## Contexte
@@ -14,6 +12,8 @@ Le DMO a pour rôle de superviser la qualité, la conformité et la fiabilité d
 
 Le besoin exprimé par les équipes métiers était de disposer d’un outil de pilotage visuel centralisant les indicateurs de qualité de données (complétude, unicité, cohérence, conformité) issus de différentes sources.
 
+---
+
 ## Objectif du projet
 
 Développer un tableau de bord Power BI connecté à Snowflake permettant de :
@@ -22,32 +22,66 @@ Développer un tableau de bord Power BI connecté à Snowflake permettant de :
 - Fournir aux Data Stewards et managers une vision consolidée et dynamique de la qualité des données.  
 - Faciliter la prise de décision et la priorisation des plans de remédiation.
 
+---
+
 ## Architecture fonctionnelle
 
 Le système repose sur une chaîne automatisée d’alimentation, de calcul et de restitution des indicateurs.
 
-| Couche | Description |
-|--------|--------------|
-| **Source Snowflake** | Tables alimentées par les contrôles de qualité issus des règles DQ automatisées. |
-| **ETL Python / SQL** | Nettoyage, transformation et agrégation des résultats par domaine et KPI. |
-| **Data Mart Qualité** | Structure normalisée dans Snowflake pour exposition vers Power BI. |
-| **Dashboard Power BI** | Visualisation interactive des scores, tendances et anomalies. |
+<table style="margin: 40px auto; border-collapse: collapse; width: 90%; text-align: left; font-size: 16px; border: 2px solid #1f77b4; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+  <thead>
+    <tr style="background-color: #e9f2fb; border-bottom: 2px solid #1f77b4;">
+      <th style="padding: 12px;">Couche</th>
+      <th style="padding: 12px;">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="padding: 10px; font-weight: bold;">Source Snowflake</td><td style="padding: 10px;">Tables alimentées par les contrôles de qualité issus des règles DQ automatisées.</td></tr>
+    <tr><td style="padding: 10px; font-weight: bold;">ETL Python / SQL</td><td style="padding: 10px;">Nettoyage, transformation et agrégation des résultats par domaine et KPI.</td></tr>
+    <tr><td style="padding: 10px; font-weight: bold;">Data Mart Qualité</td><td style="padding: 10px;">Structure normalisée dans Snowflake pour exposition vers Power BI.</td></tr>
+    <tr><td style="padding: 10px; font-weight: bold;">Dashboard Power BI</td><td style="padding: 10px;">Visualisation interactive des scores, tendances et anomalies.</td></tr>
+  </tbody>
+</table>
 
-**Image 1 – Schéma d’architecture du dashboard Data Quality**
+### Image 1 – Schéma d’architecture du dashboard Data Quality
+<p align="center" style="margin: 50px 0; text-align: center;">
+  <img 
+    src="https://github.com/user-attachments/assets/3ef9b9d5-fbe9-4517-9e67-d2f2e67ab14b" 
+    alt="architecture"
+    style="
+      display:inline-block;
+      width:92%;
+      max-width:1300px;
+      border: 3px solid #1f77b4;
+      border-radius: 12px;
+      padding: 10px;
+      background-color: #f8f9fa;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.25);
+    ">
+</p>
 
-<img width="4762" height="452" alt="Untitled diagram-2025-11-13-143515" src="https://github.com/user-attachments/assets/3ef9b9d5-fbe9-4517-9e67-d2f2e67ab14b" />
-
+---
 
 ## Stack technique
 
-| Domaine | Outils / Technologies |
-|----------|----------------------|
-| **Langages** | Python, SQL |
-| **Cloud / Stockage** | Snowflake |
-| **ETL & Automatisation** | Python (pandas, openpyxl), procédures Snowflake |
-| **Visualisation** | Power BI |
-| **Interopérabilité** | Export CSV / Excel vers Collibra et reporting DMO |
-| **Méthodologie** | Agile – sprints hebdomadaires avec Data Stewards |
+<table style="margin: 40px auto; border-collapse: collapse; width: 85%; text-align: left; font-size: 16px; border: 2px solid #1f77b4; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+  <thead>
+    <tr style="background-color: #e9f2fb; border-bottom: 2px solid #1f77b4;">
+      <th style="padding: 12px;">Domaine</th>
+      <th style="padding: 12px;">Outils / Technologies</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="padding: 10px; font-weight: bold;">Langages</td><td style="padding: 10px;">Python, SQL</td></tr>
+    <tr><td style="padding: 10px; font-weight: bold;">Cloud / Stockage</td><td style="padding: 10px;">Snowflake</td></tr>
+    <tr><td style="padding: 10px; font-weight: bold;">ETL & Automatisation</td><td style="padding: 10px;">Python (pandas, openpyxl), procédures Snowflake</td></tr>
+    <tr><td style="padding: 10px; font-weight: bold;">Visualisation</td><td style="padding: 10px;">Power BI</td></tr>
+    <tr><td style="padding: 10px; font-weight: bold;">Interopérabilité</td><td style="padding: 10px;">Export CSV / Excel vers Collibra et reporting DMO</td></tr>
+    <tr><td style="padding: 10px; font-weight: bold;">Méthodologie</td><td style="padding: 10px;">Agile – sprints hebdomadaires avec Data Stewards</td></tr>
+  </tbody>
+</table>
+
+---
 
 ## Modules fonctionnels
 
@@ -56,70 +90,112 @@ Le système repose sur une chaîne automatisée d’alimentation, de calcul et d
 - Calcul des scores de complétude, unicité, cohérence et conformité.  
 - Agrégation par domaine, entité et type de donnée.  
 
-**Image 2 – Exemple de tableau d’indicateurs consolidés**
-<img width="1769" height="121" alt="image" src="https://github.com/user-attachments/assets/cb3e8060-c44c-406c-a246-65901a587fa8" />
+### Image 2 – Exemple de tableau d’indicateurs consolidés
+<p align="center" style="margin: 50px 0; text-align: center;">
+  <img 
+    src="https://github.com/user-attachments/assets/cb3e8060-c44c-406c-a246-65901a587fa8"
+    alt="indicateurs"
+    style="
+      display:inline-block;
+      width:85%;
+      max-width:1100px;
+      border: 2.5px solid #1f77b4;
+      border-radius: 10px;
+      padding: 8px;
+      background-color: #f8f9fa;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+    ">
+</p>
 
-
-
-
+---
 
 ### 2. Modélisation du Data Mart
-- Création d’un modèle logique de données centré sur les entités “Règle”, “KPI”, “Domaine”, “Score”.  
+- Création d’un modèle logique centré sur les entités “Règle”, “KPI”, “Domaine”, “Score”.  
 - Construction de vues dynamiques pour les dashboards Power BI.  
-- Historisation automatique des résultats par date et par exécution.
+- Historisation automatique des résultats par date et exécution.  
 
-**Image 3 – Schéma du modèle de données**
+### Image 3 – Schéma du modèle de données
+<p align="center" style="margin: 50px 0; text-align: center;">
+  <img 
+    src="https://github.com/user-attachments/assets/512742a4-d9a8-4885-a410-6c08af116b98"
+    alt="model"
+    style="
+      display:inline-block;
+      width:90%;
+      max-width:1200px;
+      border: 3px solid #1f77b4;
+      border-radius: 12px;
+      padding: 10px;
+      background-color: #f8f9fa;
+      box-shadow: 0 6px 22px rgba(0,0,0,0.25);
+    ">
+</p>
 
-<img width="292" height="253" alt="image" src="https://github.com/user-attachments/assets/512742a4-d9a8-4885-a410-6c08af116b98" />
-
+---
 
 ### 3. Dashboard Power BI – Suivi global de la qualité
 - Tableau de bord interactif affichant les scores par domaine, tendance temporelle et taux d’erreurs.  
 - Navigation par filtres dynamiques (pays, entité, domaine, type de donnée).  
 - Visualisation instantanée des règles en alerte ou non conformes.  
-- Possibilité d’exporter les rapports PDF pour diffusion en comité Data Quality.  
+- Export PDF automatique pour diffusion en comité DMO.  
 
-**Image 4 – Dashboard Power BI – Vue d’ensemble**
+### Image 4 – Dashboard Power BI – Vue d’ensemble
+<p align="center" style="margin: 50px 0; text-align: center;">
+  <img 
+    src="https://github.com/user-attachments/assets/d869a103-aab9-4a12-a4e0-59ae3981da4e"
+    alt="dashboard"
+    style="
+      display:inline-block;
+      width:85%;
+      max-width:1200px;
+      border: 3px solid #1f77b4;
+      border-radius: 10px;
+      padding: 10px;
+      background-color: #f8f9fa;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+    ">
+</p>
 
-<img width="693" height="497" alt="image" src="https://github.com/user-attachments/assets/d869a103-aab9-4a12-a4e0-59ae3981da4e" />
+---
 
 ## Résultats obtenus
 
-| Indicateur | Résultat |
-|-------------|-----------|
-| **KPI suivis** | 40+ indicateurs automatisés |
-| **Domaines couverts** | 5 (Clients, Crédit, Risque, Conformité, Référentiels) |
-| **Fréquence de mise à jour** | Quotidienne |
-| **Utilisateurs actifs** | 30 Data Stewards et Managers |
-| **Réduction du temps de reporting** | -70 % |
+<table style="margin: 40px auto; border-collapse: collapse; width: 80%; text-align: left; font-size: 16px; border: 2px solid #1f77b4; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+  <thead>
+    <tr style="background-color: #e9f2fb; border-bottom: 2px solid #1f77b4;">
+      <th style="padding: 12px;">Indicateur</th>
+      <th style="padding: 12px;">Résultat</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="padding: 10px; font-weight: bold;">KPI suivis</td><td style="padding: 10px;">40+ indicateurs automatisés</td></tr>
+    <tr><td style="padding: 10px; font-weight: bold;">Domaines couverts</td><td style="padding: 10px;">5 (Clients, Crédit, Risque, Conformité, Référentiels)</td></tr>
+    <tr><td style="padding: 10px; font-weight: bold;">Fréquence de mise à jour</td><td style="padding: 10px;">Quotidienne</td></tr>
+    <tr><td style="padding: 10px; font-weight: bold;">Utilisateurs actifs</td><td style="padding: 10px;">30 Data Stewards et Managers</td></tr>
+    <tr><td style="padding: 10px; font-weight: bold;">Réduction du temps de reporting</td><td style="padding: 10px;">-70 %</td></tr>
+  </tbody>
+</table>
 
-**Image 5 – Évolution des scores de qualité**
+---
 
-<img width="461" height="327" alt="image" src="https://github.com/user-attachments/assets/806809d7-062b-4a8e-af73-0806f1f1ba0f" />
+### Image 6 – Schéma d’évolution du processus DQ
+<p align="center" style="margin: 60px 0; text-align: center;">
+  <img 
+    src="https://github.com/user-attachments/assets/faa9d94c-0875-4d17-b6dc-01a4b4cda6e2"
+    alt="pipeline"
+    style="
+      display:inline-block;
+      width:92%;
+      max-width:1300px;
+      border: 3px solid #1f77b4;
+      border-radius: 12px;
+      padding: 10px;
+      background-color: #f8f9fa;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.25);
+    ">
+</p>
 
-
-## Livrables produits
-
-| Type | Description |
-|------|--------------|
-| **Dashboard Power BI** | Interface visuelle de pilotage des indicateurs DQ. |
-| **Data Mart Snowflake** | Structure relationnelle d’exposition des KPI. |
-| **Scripts Python / SQL** | Calcul et alimentation automatisée des indicateurs. |
-| **Rapports PDF** | Export automatique pour les comités DMO. |
-| **Documentation technique** | Dictionnaire de données et guide utilisateur. |
-
-
-## Contraintes et pistes d’amélioration
-
-| Limite | Description | Solution envisagée |
-|---------|--------------|--------------------|
-| **Volume croissant de données** | Temps de traitement plus long lors des extractions massives. | Optimisation des requêtes Snowflake et partitionnement. |
-| **Manque d’indicateurs métier** | KPI techniques prédominants. | Co-construction de KPI métier avec les équipes locales. |
-| **Visualisation statique** | Peu de scénarios prédictifs. | Ajout futur de modèles de scoring basés sur l’historique. |
-
-**Image 6 – Schéma d’évolution du processus DQ**
-
-<img width="1100" alt="pipeline" src="https://github.com/user-attachments/assets/faa9d94c-0875-4d17-b6dc-01a4b4cda6e2" />
+---
 
 ## Impacts et valeur ajoutée
 
@@ -129,15 +205,7 @@ Le système repose sur une chaîne automatisée d’alimentation, de calcul et d
 - Fiabilisation du reporting réglementaire (BCBS 239, RGPD).  
 - Réduction des tâches manuelles grâce à l’automatisation du calcul et du suivi.
 
-**Image 7 – Tableau de bord consolidé (vue par domaine)**
-
-<img width="700" alt="impact" src="https://github.com/user-attachments/assets/b3ad5b19-7a9a-4d55-9db8-5e2e2eb88419" />
-
-## Enseignements
-
-- La visualisation de la donnée est un levier clé pour la gouvernance et la responsabilisation.  
-- L’industrialisation des contrôles qualité permet de gagner en fiabilité et en cohérence.  
-- La co-construction des indicateurs avec les métiers favorise l’adoption et la pérennité de la démarche Data Quality.  
+---
 
 ## Contact
 
@@ -146,7 +214,8 @@ Le système repose sur une chaîne automatisée d’alimentation, de calcul et d
 📧 [tariq.tamrabet@hotmail.com](mailto:tariq.tamrabet@hotmail.com)  
 🔗 [LinkedIn](https://linkedin.com/in/tariq-tamrabet)
 
+---
+
 ### Prochain projet → [Data Governance Automation](../data-governance-automation/)
 
 > *“Mesurer la qualité des données, c’est mesurer la confiance dans l’entreprise.”*
-
