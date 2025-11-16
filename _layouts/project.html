@@ -1,45 +1,29 @@
-<!DOCTYPE html>
-<html lang="fr">
-  <head>
-    <meta charset="UTF-8">
-    <title>{{ page.title }}</title>
-    <style>
-      header, footer, .page-header, .site-header, .site-footer, .profile-sidebar {
-        display: none !important;
-      }
-      main.page-content {
-        max-width: 1000px;
-        margin: 50px auto;
-        padding: 20px 40px;
-        text-align: justify;
-      }
-      h1, h2, h3 {
-        text-align: center;
-        margin-top: 30px;
-      }
-      .back-link {
-        display: block;
-        margin-bottom: 40px;
-        font-size: 15px;
-        text-align: left;
-      }
-      img {
-        display: block;
-        margin: 20px auto;
-        max-width: 90%;
-        height: auto;
-      }
-      p, li {
-        font-size: 17px;
-        line-height: 1.7;
-      }
-    </style>
-  </head>
+<style>
+  header, footer, .page-header, .site-header, .site-footer, .profile-sidebar {
+    display: none !important;
+  }
 
-  <body>
-    <main class="page-content">
-      <a href="{{ '/' | relative_url }}" class="back-link">← Retour au portfolio</a>
-      {{ content }}
-    </main>
-  </body>
-</html>
+  main.page-content {
+    max-width: 1400px;      /* au lieu de 1000px */
+    margin: 40px auto;
+    padding: 10px 80px;     /* plus étalé horizontalement */
+    text-align: justify;
+  }
+
+  h1, h2, h3 {
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .back-link {
+    display: block;
+    margin-bottom: 40px;
+    font-size: 15px;
+    text-align: left;
+  }
+
+  p, li {
+    font-size: 18px;        /* un peu plus grand */
+    line-height: 1.8;
+  }
+</style>
