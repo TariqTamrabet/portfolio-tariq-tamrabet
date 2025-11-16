@@ -1,38 +1,45 @@
-
 <!DOCTYPE html>
 <html lang="fr">
   <head>
     <meta charset="UTF-8">
     <title>{{ page.title }}</title>
     <style>
+      /* On masque le header/footer global du thème */
       header, footer, .page-header, .site-header, .site-footer, .profile-sidebar {
         display: none !important;
       }
+
+      /* Zone de contenu élargie */
       main.page-content {
-        max-width: 1000px;
-        margin: 50px auto;
-        padding: 20px 40px;
+        max-width: 1400px;        /* au lieu de 1000px */
+        margin: 40px auto;
+        padding: 20px 80px;       /* plus de place sur les côtés */
         text-align: justify;
       }
+
       h1, h2, h3 {
         text-align: center;
         margin-top: 30px;
       }
+
       .back-link {
         display: block;
         margin-bottom: 40px;
         font-size: 15px;
         text-align: left;
       }
-      img {
+
+      /* Règle générale pour les images (laisse les styles inline prendre le dessus) */
+      main.page-content img {
         display: block;
-        margin: 20px auto;
-        max-width: 90%;
+        margin: 30px auto;
+        max-width: 100%;          /* permet aux images de s'étaler sur toute la largeur dispo */
         height: auto;
       }
+
       p, li {
-        font-size: 17px;
-        line-height: 1.7;
+        font-size: 18px;          /* texte un peu plus grand */
+        line-height: 1.8;         /* plus aéré */
       }
     </style>
   </head>
