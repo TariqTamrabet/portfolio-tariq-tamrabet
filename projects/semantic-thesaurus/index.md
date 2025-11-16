@@ -6,6 +6,7 @@ title: "Semantic Thesauru"
 
 # Semantic Thesaurus – NLP & Word2Vec for Data Governance
 
+
 ## Contexte
 
 Ce projet a été développé dans le cadre de ma mission au **Crédit Agricole Personal Finance & Mobility (CAPFM)**, au sein du **Data Management Office (DMO)**.  
