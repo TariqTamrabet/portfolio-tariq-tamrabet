@@ -52,13 +52,14 @@ Le système repose sur une chaîne automatisée d’alimentation, de calcul et d
       display:inline-block;
       width:92%;
       max-width:1300px;
-      border: 3px solid #1f77b4;
-      border-radius: 12px;
-      padding: 10px;
-      background-color: #f8f9fa;
-      box-shadow: 0 8px 25px rgba(0,0,0,0.25);
+      border: 4px solid #000000;         /* bordure noire épaisse */
+      border-radius: 12px;               /* coins légèrement arrondis */
+      padding: 10px;                     /* espace intérieur */
+      background-color: #ffffff;         /* fond blanc pour contraste */
+      box-shadow: 0 6px 22px rgba(0,0,0,0.25); /* ombre subtile */
     ">
 </p>
+
 
 ---
 
@@ -99,13 +100,14 @@ Le système repose sur une chaîne automatisée d’alimentation, de calcul et d
       display:inline-block;
       width:85%;
       max-width:1100px;
-      border: 2.5px solid #1f77b4;
-      border-radius: 10px;
-      padding: 8px;
-      background-color: #f8f9fa;
-      box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+      border: 4px solid #000000;          /* cadre noir épais */
+      border-radius: 10px;                /* coins légèrement arrondis */
+      padding: 8px;                       /* espace interne autour de l'image */
+      background-color: #ffffff;          /* fond blanc pour bien détacher du fond */
+      box-shadow: 0 6px 22px rgba(0,0,0,0.25); /* ombre douce et contrastée */
     ">
 </p>
+
 
 ---
 
@@ -121,15 +123,16 @@ Le système repose sur une chaîne automatisée d’alimentation, de calcul et d
     alt="model"
     style="
       display:inline-block;
-      width:90%;
-      max-width:1200px;
-      border: 3px solid #1f77b4;
-      border-radius: 12px;
-      padding: 10px;
-      background-color: #f8f9fa;
-      box-shadow: 0 6px 22px rgba(0,0,0,0.25);
+      width:80%;                       /* taille légèrement réduite */
+      max-width:1000px;                /* limite raisonnable pour garder la netteté */
+      border: 3px solid #000000;       /* cadre noir élégant */
+      border-radius: 10px;             /* coins arrondis légers */
+      padding: 8px;                    /* espace interne équilibré */
+      background-color: #ffffff;       /* fond blanc neutre */
+      box-shadow: 0 5px 18px rgba(0,0,0,0.25); /* ombre douce pour relief */
     ">
 </p>
+
 
 ---
 
@@ -148,7 +151,6 @@ Le système repose sur une chaîne automatisée d’alimentation, de calcul et d
       display:inline-block;
       width:85%;
       max-width:1200px;
-      border: 3px solid #1f77b4;
       border-radius: 10px;
       padding: 10px;
       background-color: #f8f9fa;
@@ -175,25 +177,6 @@ Le système repose sur une chaîne automatisée d’alimentation, de calcul et d
     <tr><td style="padding: 10px; font-weight: bold;">Réduction du temps de reporting</td><td style="padding: 10px;">-70 %</td></tr>
   </tbody>
 </table>
-
----
-
-### Image 6 – Schéma d’évolution du processus DQ
-<p align="center" style="margin: 60px 0; text-align: center;">
-  <img 
-    src="https://github.com/user-attachments/assets/faa9d94c-0875-4d17-b6dc-01a4b4cda6e2"
-    alt="pipeline"
-    style="
-      display:inline-block;
-      width:92%;
-      max-width:1300px;
-      border: 3px solid #1f77b4;
-      border-radius: 12px;
-      padding: 10px;
-      background-color: #f8f9fa;
-      box-shadow: 0 8px 25px rgba(0,0,0,0.25);
-    ">
-</p>
 
 ---
 
