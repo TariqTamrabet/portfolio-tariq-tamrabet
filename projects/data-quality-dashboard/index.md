@@ -44,21 +44,23 @@ Le système repose sur une chaîne automatisée d’alimentation, de calcul et d
 </table>
 
 ### Image 1 – Schéma d’architecture du dashboard Data Quality
-<p align="center" style="margin: 60px 0; text-align: center;">
+<p align="center" style="margin: 60px auto; text-align: center;">
   <img 
     src="https://github.com/user-attachments/assets/3ef9b9d5-fbe9-4517-9e67-d2f2e67ab14b" 
     alt="architecture"
     style="
-      display:inline-block;
-      width:95%;                        /* agrandie proprement à 95% */
-      max-width:1500px;                 /* plus grande limite sur écrans larges */
-      border: 5px solid #000000;        /* cadre noir épais et net */
-      border-radius: 12px;              /* coins arrondis */
-      padding: 12px;                    /* espace interne renforcé */
-      background-color: #ffffff;        /* fond neutre blanc */
-      box-shadow: 0 8px 28px rgba(0,0,0,0.25); /* ombre plus visible */
+      display:block;
+      margin: 0 auto;                   /* garantit le centrage horizontal */
+      width:98%;                        /* agrandie un peu plus */
+      max-width:1600px;                 /* limite large pour garder la qualité */
+      border: 5px solid #000000;        /* cadre noir élégant */
+      border-radius: 12px;              /* coins légèrement arrondis */
+      padding: 12px;                    /* espace intérieur régulier */
+      background-color: #ffffff;        /* fond neutre */
+      box-shadow: 0 8px 28px rgba(0,0,0,0.25); /* ombre douce et pro */
     ">
 </p>
+
 
 
 
