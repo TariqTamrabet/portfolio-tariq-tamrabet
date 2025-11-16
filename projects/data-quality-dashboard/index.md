@@ -50,7 +50,7 @@ Le système repose sur une chaîne automatisée d’alimentation, de calcul et d
     alt="architecture"
     style="
       display:inline-block;
-      width:80%;
+      width:100%;
       max-width:1300px;
       border: 4px solid #000000;         /* bordure noire épaisse */
       border-radius: 12px;               /* coins légèrement arrondis */
