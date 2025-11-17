@@ -36,26 +36,7 @@ Mettre en place une solution d’automatisation des flux de données permettant 
 
 **Image 1 – Schéma d’architecture du flux de traitement**
 
-<p style="margin: 60px 0; text-align: center; overflow: visible;">
-  <img 
-    src="https://github.com/user-attachments/assets/ab669792-b3c1-42ce-971f-1f526b38b18c"
-    alt="schema flux traitement"
-    style="
-      display:block;
-      position: relative;
-      left: 50%;
-      transform: translateX(-50%);
-
-      width:130%;                       /* très large */
-      max-width:1900px;
-
-      border: 5px solid #000000;        /* cadre noir épais */
-      border-radius: 12px;
-      padding: 12px;
-      background-color: #ffffff;
-      box-shadow: 0 8px 28px rgba(0,0,0,0.25);
-    ">
-</p>
+<p style="margin: 60px 0; text-align: center;"> <img src="https://github.com/user-attachments/assets/ab669792-b3c1-42ce-971f-1f526b38b18c" alt="schema flux traitement" style=" display:block; margin: 0 auto; width:130%; /* très large */ max-width:1900px; border: 5px solid #000000; /* cadre noir épais */ border-radius: 12px; padding: 12px; background-color: #ffffff; box-shadow: 0 8px 28px rgba(0,0,0,0.25); "> </p>
 
 
 **Image 2 – Schéma du data mart des données clients importé de la BCE**
