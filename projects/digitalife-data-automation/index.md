@@ -158,6 +158,7 @@ Mettre en place une solution d’automatisation des flux de données permettant 
 
 ---
 
+
 ## Contraintes et pistes d’amélioration
 
 | Limite | Description | Solution envisagée |
