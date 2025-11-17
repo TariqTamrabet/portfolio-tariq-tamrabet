@@ -43,7 +43,7 @@ Mettre en place une solution d’automatisation des flux de données permettant 
     style="
       display:block;
       margin: 0 auto;
-      width:100%;                       /* très large */
+      width:130%;                       /* très large */
       max-width:1900px;
       border: 5px solid #000000;        /* cadre noir épais */
       border-radius: 12px;
