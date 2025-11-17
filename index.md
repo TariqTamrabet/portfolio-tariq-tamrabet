@@ -30,10 +30,7 @@ Nettoyage, enrichissement API BCE, normalisation, structuration et génération 
 **Stack :** Python, R, SQL, PHP, API BCE, Odoo  
 **Impact :** plus de 100 000 lignes traitées/semaine, conformité RGPD totale.
 
-### Pipelines ETL / ELT et traitements automatisés
-Développement de pipelines Python & SQL pour ingestion, transformation, validation et historisation.  
-**Stack :** Python, SQL, Snowflake  
-**Impact :** automatisation de flux critiques et réduction des erreurs manuelles.
+
 
 # Data Analytics & Visualisation
 
@@ -96,3 +93,4 @@ footer { display: none !important; }
 </style>
 
 “Construire des données fiables, c’est construire la confiance dans les décisions.”
+
