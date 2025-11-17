@@ -51,7 +51,7 @@ Le système repose sur une chaîne automatisée d’alimentation, de calcul et d
     style="
       display:block;
       margin: 0 auto;
-      width:100%;                       /* image au max de la zone de contenu */
+      width:110%;                       /* image au max de la zone de contenu */
       max-width:1900px;                 /* un peu plus large qu'avant */
       border: 5px solid #000000;
       border-radius: 12px;
@@ -99,7 +99,7 @@ Le système repose sur une chaîne automatisée d’alimentation, de calcul et d
     style="
       display:block;
       margin: 0 auto;
-      width:100%;                       /* agrandi */
+      width:105%;                       /* agrandi */
       max-width:1600px;                 /* plus grand qu'avant */
       border: 4px solid #000000;
       border-radius: 10px;
@@ -123,7 +123,7 @@ Le système repose sur une chaîne automatisée d’alimentation, de calcul et d
     alt="model"
     style="
       display:inline-block;
-      width:65%;                       /* diminuée */
+      width:45%;                       /* diminuée */
       max-width:900px;                 /* un peu plus compact */
       border: 3px solid #000000;
       border-radius: 10px;
