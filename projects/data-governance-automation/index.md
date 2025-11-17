@@ -318,6 +318,7 @@ L’application repose sur une architecture **modulaire et interconnectée** com
 
 ---
 
-### Prochain projet → [Semantic Thesaurus](../semantic-thesaurus/)
+### Prochain projet → [Digitalife – Automatisation des référentiels clients](../digitalife-data-automation/)
+
 
 > *« Construire des données fiables, c’est construire la confiance dans les décisions. »*
