@@ -224,7 +224,7 @@ L’architecture repose sur quatre modules complémentaires :
     style="
       display:inline-block;
       width:500px;
-      height:200px;
+      height:500px;
       border: 3px solid #000000;
       border-radius: 10px;
       padding: 6px;
