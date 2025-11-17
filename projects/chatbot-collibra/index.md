@@ -37,6 +37,7 @@ L’ambition était de démontrer la faisabilité technique d’une **interopér
 
 
 
-### Prochain projet → [Semantic Thesaurus – Modèle sémantique bancaire](../semantic-thesaurus/)
+### Retour au portfolio → [Accueil](../../index.md)
+
 
 
