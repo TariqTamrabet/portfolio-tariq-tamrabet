@@ -31,7 +31,27 @@ Concevoir une solution visuelle permettant à DWFA de :
 
 **Image 1 – Schéma de structure du dashboard**
 
-<img width="7060" height="304" alt="Untitled diagram-2025-11-14-024754" src="https://github.com/user-attachments/assets/f6b03ebd-e758-47f1-a0b4-8696699fbf0b" />
+<p style="margin: 60px 0; text-align: center; overflow: visible;">
+  <img 
+    src="https://github.com/user-attachments/assets/f6b03ebd-e758-47f1-a0b4-8696699fbf0b"
+    alt="pipeline"
+    style="
+      display:block;
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
+
+      width:150%;                       /* agrandi nettement */
+      max-width:2600px;                 /* limite large mais propre */
+
+      border: 5px solid #000000;        /* cadre noir épais */
+      border-radius: 12px;              
+      padding: 12px;
+      background-color: #ffffff;
+      box-shadow: 0 8px 28px rgba(0,0,0,0.25);
+    ">
+</p>
+
 
 
 ## Stack technique
