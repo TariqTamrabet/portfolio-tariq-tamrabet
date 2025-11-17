@@ -37,5 +37,6 @@ L’ambition était de démontrer la faisabilité technique d’une **interopér
 
 
 
-### Prochain projet → [Chatbot Sémantique Inter-Cloud](../chatbot-collibra/)
+### Prochain projet → [Semantic Thesaurus – Modèle sémantique bancaire](../semantic-thesaurus/)
+
 
