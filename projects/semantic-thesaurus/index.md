@@ -136,7 +136,7 @@ L’architecture repose sur quatre modules complémentaires :
     alt="data mart sémantique"
     style="
       display:inline-block;
-      width:75%;                        /* intermédiaire */
+      width:55%;                        /* intermédiaire */
       max-width:1000px;
       border: 3px solid #000000;
       border-radius: 10px;
@@ -223,7 +223,7 @@ L’architecture repose sur quatre modules complémentaires :
     alt="illustration"
     style="
       display:inline-block;
-      width:200px;
+      width:500px;
       height:200px;
       border: 3px solid #000000;
       border-radius: 10px;
