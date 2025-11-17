@@ -148,5 +148,8 @@ Concevoir une solution visuelle permettant à DWFA de :
 📧 [tariq.tamrabet@hotmail.com](mailto:tariq.tamrabet@hotmail.com)  
 🔗 [LinkedIn](https://linkedin.com/in/tariq-tamrabet)
 
+### Prochain projet → [Data Quality Dashboard – Pilotage de la qualité des données](../data-quality-dashboard/)
+
+
 > *“L’eau potable n’est pas un privilège, c’est un droit fondamental.”*
 
