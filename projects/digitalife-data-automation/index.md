@@ -48,7 +48,7 @@ Mettre en place une solution d’automatisation des flux de données permettant 
     style="
       display:block;
       margin: 0 auto;
-      width:100%;                       /* agrandi */
+      width:90%;                       /* agrandi */
       max-width:1600px;
       border: 4px solid #000000;
       border-radius: 10px;
@@ -134,7 +134,7 @@ Mettre en place une solution d’automatisation des flux de données permettant 
     style="
       display:block;
       margin: 0 auto;
-      width:100%;                       /* large comme l’architecture */
+      width:130%;                       /* large comme l’architecture */
       max-width:1800px;
       border: 4px solid #000000;
       border-radius: 10px;
@@ -185,7 +185,7 @@ Mettre en place une solution d’automatisation des flux de données permettant 
     style="
       display:inline-block;
       margin: 0 auto;
-      width:75%;
+      width:78%;
       max-width:1000px;
       border: 3px solid #000000;
       border-radius: 10px;
