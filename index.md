@@ -14,7 +14,7 @@ Référent en gouvernance, data engineering et automatisation, je conçois des s
 Mon expertise couvre la qualité, la transformation, l’intégration, la conformité et l’exploitation des données au service de la performance métier.
 
 # Data Engineering, Gouvernance & Automatisation  
-*(Groupe unifié : ETL, ELT, automatisation, data quality, gouvernance, référentiels, Collibra, Digitalife, Snowflake)*
+
 
 ### [Application de documentation & historisation Collibra](./projects/data-governance-automation/index.md)
 Automatisation complète des règles de Data Quality, historisation dans Snowflake, génération d’exports Collibra Ready.  
@@ -90,6 +90,7 @@ footer { display: none !important; }
 </style>
 
 “Construire des données fiables, c’est construire la confiance dans les décisions.”
+
 
 
 
