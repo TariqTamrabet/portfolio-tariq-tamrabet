@@ -34,3 +34,8 @@ L’ambition était de démontrer la faisabilité technique d’une **interopér
 **Schéma d’architecture du flux inter-cloud :**
 
 <img width="2093" height="313" alt="Untitled diagram-2025-11-14-025553" src="https://github.com/user-attachments/assets/e5483b23-29c8-4ca6-ac9c-1046be19cf37" />
+
+
+
+### Prochain projet → [Chatbot Sémantique Inter-Cloud](../chatbot-collibra/)
+
