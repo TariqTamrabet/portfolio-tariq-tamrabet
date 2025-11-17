@@ -1,3 +1,4 @@
+---
 layout: default
 title: "Portfolio - Tariq Tamrabet"
 ---
@@ -93,4 +94,5 @@ footer { display: none !important; }
 </style>
 
 “Construire des données fiables, c’est construire la confiance dans les décisions.”
+
 
