@@ -31,26 +31,27 @@ Concevoir une solution visuelle permettant à DWFA de :
 
 **Image 1 – Schéma de structure du dashboard**
 
-<p style="margin: 60px 0; text-align: center; overflow: visible;">
+<div style="
+  width:100%;
+  display:flex;
+  justify-content:center;
+  overflow:visible;
+  margin:60px 0;
+">
   <img 
     src="https://github.com/user-attachments/assets/f6b03ebd-e758-47f1-a0b4-8696699fbf0b"
     alt="pipeline"
     style="
-      display:block;
-      position: relative;
-      left: 50%;
-      transform: translateX(-50%);
-
-      width:150%;                       /* agrandi nettement */
-      max-width:2600px;                 /* limite large mais propre */
-
-      border: 5px solid #000000;        /* cadre noir épais */
-      border-radius: 12px;              
-      padding: 12px;
-      background-color: #ffffff;
-      box-shadow: 0 8px 28px rgba(0,0,0,0.25);
+      width:180%;                      /* très agrandi */
+      max-width:none;                  /* empêcher les limites */
+      border:5px solid #000000;
+      border-radius:12px;
+      padding:12px;
+      background:#ffffff;
+      box-shadow:0 8px 28px rgba(0,0,0,0.25);
     ">
-</p>
+</div>
+
 
 
 
