@@ -42,7 +42,7 @@ Concevoir une solution visuelle permettant à DWFA de :
     src="https://github.com/user-attachments/assets/f6b03ebd-e758-47f1-a0b4-8696699fbf0b"
     alt="pipeline"
     style="
-      width:180%;                      /* très agrandi */
+      width:170%;                      /* très agrandi */
       max-width:none;                  /* empêcher les limites */
       border:5px solid #000000;
       border-radius:12px;
