@@ -3,16 +3,16 @@ layout: project
 title: "Projet Digitalife"
 ---
 
-
 # Projet Digitalife – Automatisation et fiabilisation des référentiels de données clients
 
 ## Contexte
-
 
 Ce projet a été réalisé au sein de **Digitalife**, entreprise spécialisée dans la transformation digitale des processus commerciaux et administratifs B2B.  
 Dans le cadre de la migration vers l’ERP **Odoo**, l’objectif était de **fiabiliser et automatiser les référentiels de données clients et partenaires** afin d’assurer une intégration fluide, conforme et exploitable dans le nouveau système d’information.  
 
 Intégré à l’équipe Data et Transformation, j’ai contribué à concevoir une solution complète de **traitement, enrichissement et normalisation des données** avant leur intégration dans l’ERP.
+
+---
 
 ## Objectif du projet
 
@@ -21,6 +21,8 @@ Mettre en place une solution d’automatisation des flux de données permettant 
 - Garantir la **qualité, unicité et conformité RGPD** avant l’intégration ERP.  
 - Générer des fichiers métiers compatibles avec **Odoo**.  
 - Réduire le temps de préparation commerciale et les interventions manuelles.
+
+---
 
 ## Architecture fonctionnelle
 
@@ -34,11 +36,43 @@ Mettre en place une solution d’automatisation des flux de données permettant 
 
 **Image 1 – Schéma d’architecture du flux de traitement**
 
-<img width="6302" height="646" alt="Untitled diagram-2025-11-14-015052" src="https://github.com/user-attachments/assets/ab669792-b3c1-42ce-971f-1f526b38b18c" />
+<p style="margin: 60px 0; text-align: center;">
+  <img 
+    src="https://github.com/user-attachments/assets/ab669792-b3c1-42ce-971f-1f526b38b18c"
+    alt="schema flux traitement"
+    style="
+      display:block;
+      margin: 0 auto;
+      width:100%;                       /* très large */
+      max-width:1900px;
+      border: 5px solid #000000;        /* cadre noir épais */
+      border-radius: 12px;
+      padding: 12px;
+      background-color: #ffffff;
+      box-shadow: 0 8px 28px rgba(0,0,0,0.25);
+    ">
+</p>
 
+**Image 2 – Schéma du data mart des données clients importé de la BCE**
 
-**Image 2 – Schéma du data mart des donénes clients importé de la   BCE**
-<img width="872" height="375" alt="image" src="https://github.com/user-attachments/assets/4523dfc6-c70b-47f7-b757-be0304fb697c" />
+<p style="margin: 50px 0; text-align: center;">
+  <img 
+    src="https://github.com/user-attachments/assets/4523dfc6-c70b-47f7-b757-be0304fb697c"
+    alt="data mart bce"
+    style="
+      display:block;
+      margin: 0 auto;
+      width:100%;                       /* agrandi */
+      max-width:1600px;
+      border: 4px solid #000000;
+      border-radius: 10px;
+      padding: 10px;
+      background-color: #ffffff;
+      box-shadow: 0 6px 22px rgba(0,0,0,0.25);
+    ">
+</p>
+
+---
 
 ## Stack technique
 
@@ -50,6 +84,8 @@ Mettre en place une solution d’automatisation des flux de données permettant 
 | **Automatisation** | Scripts batch, contrôles qualité, logs |
 | **Sources** | API BCE, fichiers CSV |
 | **Méthodologie** | Cycle en V – cadrage, développement, tests, intégration |
+
+---
 
 ## Modules fonctionnels
 
@@ -69,14 +105,29 @@ Mettre en place une solution d’automatisation des flux de données permettant 
 - Validation syntaxique avant chargement ERP.
 
 ### 4. Tableau de suivi qualité
-- Calcul des KPI.
+- Calcul des KPI.  
 - Visualisation sous forme de rapports internes exportables (CSV ou PDF).
 
 **Image 3 – Interface Web de traitement**
 
-<img width="1069" height="229" alt="image" src="https://github.com/user-attachments/assets/d46b6c14-e194-49e3-a24a-45fc7994355b" />
+<p style="margin: 50px 0; text-align: center;">
+  <img 
+    src="https://github.com/user-attachments/assets/d46b6c14-e194-49e3-a24a-45fc7994355b"
+    alt="interface web traitement"
+    style="
+      display:inline-block;
+      margin: 0 auto;
+      width:70%;                        /* un peu plus compact */
+      max-width:1100px;
+      border: 3px solid #000000;
+      border-radius: 10px;
+      padding: 8px;
+      background-color: #ffffff;
+      box-shadow: 0 5px 18px rgba(0,0,0,0.25);
+    ">
+</p>
 
-
+---
 
 ## Résultats obtenus
 
@@ -88,10 +139,26 @@ Mettre en place une solution d’automatisation des flux de données permettant 
 | **Automatisation** | Flux de traitement 100 % automatisé de bout en bout |
 | **Disponibilité applicative** | Interface accessible et sécurisée via réseau interne |
 
-**Image 3 – Exemple de pipeline de traitement et enrichissement**
+**Image 4 – Exemple de pipeline de traitement et enrichissement**
 
-<img width="5966" height="595" alt="Untitled diagram-2025-11-14-022749" src="https://github.com/user-attachments/assets/2d8b8c97-fe14-4623-aad4-593ec10d48a3" />
+<p style="margin: 50px 0; text-align: center;">
+  <img 
+    src="https://github.com/user-attachments/assets/2d8b8c97-fe14-4623-aad4-593ec10d48a3"
+    alt="pipeline traitement enrichissement"
+    style="
+      display:block;
+      margin: 0 auto;
+      width:100%;                       /* large comme l’architecture */
+      max-width:1800px;
+      border: 4px solid #000000;
+      border-radius: 10px;
+      padding: 10px;
+      background-color: #ffffff;
+      box-shadow: 0 6px 22px rgba(0,0,0,0.25);
+    ">
+</p>
 
+---
 
 ## Livrables produits
 
@@ -103,6 +170,8 @@ Mettre en place une solution d’automatisation des flux de données permettant 
 | **Documentation technique** | Règles de transformation, dictionnaire des champs, guide d’intégration. |
 | **Tableaux de bord** | Suivi qualité et logs de traitement. |
 
+---
+
 ## Contraintes et pistes d’amélioration
 
 | Limite | Description | Solution envisagée |
@@ -111,6 +180,7 @@ Mettre en place une solution d’automatisation des flux de données permettant 
 | **Dépendance aux API externes** | Temps de réponse variables de la BCE. | Mise en place d’un cache local pour limiter les appels. |
 | **Interface basique** | Design fonctionnel mais peu ergonomique. | Refonte graphique avec framework frontend moderne. |
 
+---
 
 ## Impacts et valeur ajoutée
 
@@ -122,8 +192,24 @@ Mettre en place une solution d’automatisation des flux de données permettant 
 
 **Image 5 – Schéma de l’architecture d’automatisation complète**
 
-<img width="752" height="434" alt="Diagramme sans nom drawio" src="https://github.com/user-attachments/assets/70cac2d2-82c1-4509-9d21-2c77b41abf3f" />
+<p style="margin: 50px 0; text-align: center;">
+  <img 
+    src="https://github.com/user-attachments/assets/70cac2d2-82c1-4509-9d21-2c77b41abf3f"
+    alt="architecture automatisation complète"
+    style="
+      display:inline-block;
+      margin: 0 auto;
+      width:75%;
+      max-width:1000px;
+      border: 3px solid #000000;
+      border-radius: 10px;
+      padding: 8px;
+      background-color: #ffffff;
+      box-shadow: 0 5px 18px rgba(0,0,0,0.25);
+    ">
+</p>
 
+---
 
 ## Enseignements
 
@@ -139,5 +225,3 @@ Mettre en place une solution d’automatisation des flux de données permettant 
 🔗 [LinkedIn](https://linkedin.com/in/tariq-tamrabet)
 
 > *“Des référentiels fiables, c’est le socle d’une transformation digitale réussie.”*
-
-
