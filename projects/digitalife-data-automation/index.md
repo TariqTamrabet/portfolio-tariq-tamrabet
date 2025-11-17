@@ -210,4 +210,7 @@ Mettre en place une solution d’automatisation des flux de données permettant 
 📧 [tariq.tamrabet@hotmail.com](mailto:tariq.tamrabet@hotmail.com)  
 🔗 [LinkedIn](https://linkedin.com/in/tariq-tamrabet)
 
+### Prochain projet → [Data Quality Dashboard – Pilotage de la qualité des données](../data-quality-dashboard/)
+
+
 > *“Des référentiels fiables, c’est le socle d’une transformation digitale réussie.”*
