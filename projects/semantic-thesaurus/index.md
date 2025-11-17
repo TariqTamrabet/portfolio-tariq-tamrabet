@@ -252,6 +252,7 @@ L’architecture repose sur quatre modules complémentaires :
 
 ---
 
-### Prochain projet → [Data Quality Dashboard](../data-quality-dashboard/)
+### Prochain projet → [Chatbot Sémantique Inter-Cloud](../chatbot-collibra/)
+
 
 > *“Structurer le langage des données, c’est renforcer la compréhension des métiers.”*
