@@ -21,10 +21,6 @@ Automatisation complète des règles de Data Quality, historisation dans Snowfla
 **Stack :** Python, Snowflake, Collibra API, Power BI  
 **Impact :** +60% de gain de productivité, documentation standardisée, conformité renforcée.
 
-### [Dashboard Power BI – Qualité des données & RGPD](./projects/data-quality-dashboard/index.md)
-Pilotage centralisé des indicateurs qualité et conformité BCBS 239 et RGPD.  
-**Stack :** Power BI, SQL, Python, Snowflake  
-**Impact :** -70% de temps de reporting.
 
 ### [Projet Digitalife – Automatisation des référentiels clients](./projects/digitalife-data-automation/index.md)
 Nettoyage, enrichissement API BCE, normalisation, structuration et génération automatique des fichiers ERP Odoo.  
@@ -94,5 +90,6 @@ footer { display: none !important; }
 </style>
 
 “Construire des données fiables, c’est construire la confiance dans les décisions.”
+
 
 
