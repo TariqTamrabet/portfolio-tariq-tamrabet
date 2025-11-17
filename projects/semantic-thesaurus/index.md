@@ -3,9 +3,7 @@ layout: project
 title: "Semantic Thesauru"
 ---
 
-
 # Semantic Thesaurus – NLP & Word2Vec for Data Governance
-
 
 ## Contexte
 
@@ -14,7 +12,7 @@ Le DMO souhaitait renforcer la cohérence sémantique du **glossaire métier** u
 
 L’objectif était de concevoir un **moteur de détection automatique des synonymes et relations sémantiques** basé sur des modèles de langage (NLP & Word2Vec), pour fiabiliser la gouvernance du vocabulaire métier.
 
-
+---
 
 ## Objectif du projet
 
@@ -24,7 +22,7 @@ Développer un moteur sémantique permettant de :
 - Créer un **data mart sémantique** dans Snowflake pour le stockage et la visualisation des résultats.  
 - Offrir une **interface intuitive** pour la validation, la recherche et la visualisation des liens entre termes.  
 
-
+---
 
 ## Architecture générale
 
@@ -37,15 +35,26 @@ L’architecture repose sur quatre modules complémentaires :
 | **Stockage Snowflake** | Data mart sémantique centralisant les concepts, relations et scores de similarité. |
 | **Interface Streamlit** | Application interactive pour visualiser, valider et exporter les synonymes vers Collibra. |
 
-📸 **Image 1 – Schéma d’architecture sémantique**
+**Image 1 – Schéma d’architecture sémantique**
 
-<img width="650" height="397" alt="image" src="https://github.com/user-attachments/assets/9bc57759-7f7a-4551-b006-26138df5ab04" />
+<p style="margin: 60px 0; text-align: center;">
+  <img 
+    src="https://github.com/user-attachments/assets/9bc57759-7f7a-4551-b006-26138df5ab04"
+    alt="architecture sémantique"
+    style="
+      display:block;
+      margin: 0 auto;
+      width:100%;                       /* très large, comme pour Data Quality */
+      max-width:1900px;
+      border: 5px solid #000000;        /* cadre noir épais */
+      border-radius: 12px;
+      padding: 12px;
+      background-color: #ffffff;
+      box-shadow: 0 8px 28px rgba(0,0,0,0.25);
+    ">
+</p>
 
-
-
-
-
-
+---
 
 ## Stack technique
 
@@ -58,7 +67,7 @@ L’architecture repose sur quatre modules complémentaires :
 | **Interopérabilité** | Collibra API (export des synonymes validés) |
 | **Méthodologie** | Agile – itérations avec les Data Stewards |
 
-
+---
 
 ## Modules fonctionnels
 
@@ -69,11 +78,24 @@ L’architecture repose sur quatre modules complémentaires :
 
 **Image 2 – Échantillon du glossaire nettoyé**
 
-<img width="3085" height="472" alt="Untitled diagram-2025-11-13-141622" src="https://github.com/user-attachments/assets/60fb76a7-bfb8-4ad2-8e74-f1a40b9afb47" />
+<p style="margin: 50px 0; text-align: center;">
+  <img 
+    src="https://github.com/user-attachments/assets/60fb76a7-bfb8-4ad2-8e74-f1a40b9afb47"
+    alt="glossaire nettoyé"
+    style="
+      display:block;
+      margin: 0 auto;
+      width:100%;                       /* agrandi */
+      max-width:1600px;                 /* large mais contrôlé */
+      border: 4px solid #000000;
+      border-radius: 10px;
+      padding: 10px;
+      background-color: #ffffff;
+      box-shadow: 0 6px 22px rgba(0,0,0,0.25);
+    ">
+</p>
 
-
-
-
+---
 
 ### 🔹 2. Entraînement du modèle NLP
 - Constitution d’un **corpus métier** à partir de descriptions, rapports et termes Collibra.  
@@ -81,14 +103,25 @@ L’architecture repose sur quatre modules complémentaires :
 - Calcul de la **similarité cosinus** pour mesurer la proximité sémantique entre termes.  
 - Génération d’un graphe relationnel des concepts similaires.
 
-📸 **Image 3 – Graphe sémantique Word2Vec**
+**Image 3 – Graphe sémantique Word2Vec**
 
-<img width="596" height="529" alt="image" src="https://github.com/user-attachments/assets/51e59fc6-ca09-47c9-a0bd-d6895865c9fd" />
+<p style="margin: 50px 0; text-align: center;">
+  <img 
+    src="https://github.com/user-attachments/assets/51e59fc6-ca09-47c9-a0bd-d6895865c9fd"
+    alt="graphe word2vec"
+    style="
+      display:inline-block;
+      width:65%;                        /* plus petit, comme l’image 3 de l’autre projet */
+      max-width:900px;
+      border: 3px solid #000000;
+      border-radius: 10px;
+      padding: 8px;
+      background-color: #ffffff;
+      box-shadow: 0 5px 18px rgba(0,0,0,0.25);
+    ">
+</p>
 
-
-
-
-
+---
 
 ### 🔹 3. Stockage et visualisation dans Snowflake
 - Insertion des résultats du modèle (termes, scores, liens sémantiques) dans des tables dédiées.  
@@ -97,10 +130,23 @@ L’architecture repose sur quatre modules complémentaires :
 
 **Image 4 – Structure du data mart sémantique (Snowflake)**
 
-<img width="511" height="489" alt="image" src="https://github.com/user-attachments/assets/c4011c14-5e85-49ec-be5d-54c259e76e91" />
+<p style="margin: 50px 0; text-align: center;">
+  <img 
+    src="https://github.com/user-attachments/assets/c4011c14-5e85-49ec-be5d-54c259e76e91"
+    alt="data mart sémantique"
+    style="
+      display:inline-block;
+      width:75%;                        /* intermédiaire */
+      max-width:1000px;
+      border: 3px solid #000000;
+      border-radius: 10px;
+      padding: 8px;
+      background-color: #ffffff;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+    ">
+</p>
 
-
-
+---
 
 ### 🔹 4. Interface Streamlit – Validation et export
 - Application Streamlit permettant de :
@@ -109,7 +155,7 @@ L’architecture repose sur quatre modules complémentaires :
   - Valider ou rejeter les suggestions.  
   - Exporter les synonymes validés au format “Collibra Ready”.  
 
-
+---
 
 ## Résultats obtenus
 
@@ -121,8 +167,7 @@ L’architecture repose sur quatre modules complémentaires :
 | **Synonymes validés** | 420 |
 | **Données stockées** | 6 tables Snowflake (concepts, relations, logs, etc.) |
 
-
-
+---
 
 ## Livrables produits
 
@@ -134,8 +179,7 @@ L’architecture repose sur quatre modules complémentaires :
 | **Exports Collibra Ready** | Fichiers normalisés pour mise à jour du glossaire Collibra. |
 | **Documentation technique** | Guide d’utilisation, scripts Python et schémas Snowflake. |
 
-
-
+---
 
 ## Contraintes et pistes d’amélioration
 
@@ -145,12 +189,25 @@ L’architecture repose sur quatre modules complémentaires :
 | **Ambiguïté lexicale** | Certains termes polysémiques génèrent de faux positifs. | Ajout d’un module de désambiguïsation contextuelle (spaCy). |
 | **Validation manuelle** | Validation humaine nécessaire pour 20 % des suggestions. | Intégration d’un module semi-supervisé d’apprentissage continu. |
 
-**Image 8 – Pipeline NLP simplifié**
+**Image 5 – Pipeline NLP simplifié**
 
-<img width="414" height="250" alt="image" src="https://github.com/user-attachments/assets/8938ec29-03b0-41bb-b074-833c61ec5838" />
+<p style="margin: 50px 0; text-align: center;">
+  <img 
+    src="https://github.com/user-attachments/assets/8938ec29-03b0-41bb-b074-833c61ec5838"
+    alt="pipeline nlp"
+    style="
+      display:inline-block;
+      width:80%;
+      max-width:900px;
+      border: 3px solid #000000;
+      border-radius: 10px;
+      padding: 8px;
+      background-color: #ffffff;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+    ">
+</p>
 
-
-
+---
 
 ## Impacts et valeur ajoutée
 
@@ -160,12 +217,23 @@ L’architecture repose sur quatre modules complémentaires :
 - **Réduction des redondances** et incohérences dans la documentation.  
 - **Intégration facilitée** des concepts dans la gouvernance globale des données.  
 
+<p style="margin: 40px 0; text-align: center;">
+  <img 
+    src="https://github.com/user-attachments/assets/ca6696c1-6fac-4313-96a4-45667aa9e2ad"
+    alt="illustration"
+    style="
+      display:inline-block;
+      width:200px;
+      height:200px;
+      border: 3px solid #000000;
+      border-radius: 10px;
+      padding: 6px;
+      background-color: #ffffff;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.25);
+    ">
+</p>
 
-
-<img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/ca6696c1-6fac-4313-96a4-45667aa9e2ad" />
-
-
-
+---
 
 ## Enseignements
 
@@ -173,6 +241,7 @@ L’architecture repose sur quatre modules complémentaires :
 - La **collaboration entre data scientists et métiers** est clé pour la pertinence du modèle.  
 - L’intégration du NLP dans la gouvernance ouvre la voie à une **intelligence documentaire continue**.  
 
+---
 
 ## Contact
 
@@ -181,11 +250,8 @@ L’architecture repose sur quatre modules complémentaires :
 📧 [tariq.tamrabet@hotmail.com](mailto:tariq.tamrabet@hotmail.com)  
 🔗 [LinkedIn](https://linkedin.com/in/tariq-tamrabet)
 
+---
 
-
-### 🔗 Prochain projet → [Data Quality Dashboard](../data-quality-dashboard/)
-
-
+### Prochain projet → [Data Quality Dashboard](../data-quality-dashboard/)
 
 > *“Structurer le langage des données, c’est renforcer la compréhension des métiers.”*
-
