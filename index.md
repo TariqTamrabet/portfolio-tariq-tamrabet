@@ -1,89 +1,99 @@
+layout: default
+title: "Portfolio - Tariq Tamrabet"
+---
+
 # Bonjour, je suis **Tariq Tamrabet**
 
 ### Data Governance Manager & Data Engineer  
-📍 Lille, France | 📧 [tariq.tamrabet@hotmail.com](mailto:tariq.tamrabet@hotmail.com) | 🔗 [LinkedIn](https://linkedin.com/in/tariq-tamrabet)
+📍 Lille, France | 📧 tariq.tamrabet@hotmail.com | 🔗 [LinkedIn](https://linkedin.com/in/tariq-tamrabet)
 
 ## À propos
 
-Référent en gouvernance et qualité des données, je conçois et déploie des solutions automatisées pour fiabiliser, documenter et valoriser les données au service de la performance métier.  
-Mon approche combine rigueur technique (Python, SQL, ETL, Cloud) et vision fonctionnelle (gouvernance, qualité, conformité RGPD, BCBS 239).
+Référent en gouvernance, qualité des données et data engineering, je conçois des solutions robustes pour fiabiliser, structurer et valoriser la donnée dans des environnements complexes.  
+Mon expertise repose sur une combinaison solide entre technique (Python, SQL, ETL, Cloud) et compréhension fonctionnelle des enjeux métier.
 
-Je m’intéresse particulièrement à la structuration, la traçabilité et la valorisation des données dans des environnements complexes, notamment bancaires et cloud.
+# Gouvernance & Qualité des Données
 
-## Projets de Gouvernance & Qualité des Données
+### [Application de documentation & historisation Collibra](./projects/data-governance-automation/index.md)
+Automatisation de la documentation DQ, historisation Snowflake, export Collibra Ready.  
+**Stack :** Python, Snowflake, Power BI, Collibra API  
+**Impact :** +60% de gain de productivité, conformité renforcée.
 
-### [1. Application de documentation et d’historisation Collibra](./projects/data-governance-automation/index.md)
-Automatisation complète de la documentation et du suivi de la qualité des données dans Collibra.  
-**Stack :** Python • Collibra API • Power BI • SQL  
-**Résultats :** gain de 60 % sur le temps de documentation et pilotage automatisé de la data quality.
+### [Dashboard Power BI – Qualité de données & RGPD](./projects/data-quality-dashboard/index.md)
+Pilotage centralisé des KPI qualité et conformité.  
+**Stack :** Power BI, SQL, Python, Snowflake  
+**Impact :** -70% de temps de reporting.
 
-### [2. Dashboard Power BI – Qualité de données & conformité RGPD](./projects/data-quality-dashboard/index.md)
-Tableau de bord interactif Power BI pour le suivi des indicateurs de qualité et de conformité réglementaire.  
-**Stack :** Power BI • Python • SQL • Snowflake  
-**Résultats :** -70 % de temps de reporting et suivi centralisé des KPI qualité.
+# Data Engineering, ETL / ELT & Automatisation
 
-## Projets NLP, Sémantique & IA
+### [Projet Digitalife – Automatisation des référentiels clients](./projects/digitalife-data-automation/index.md)
+Nettoyage, normalisation, enrichissement API, génération fichiers ERP Odoo.  
+**Stack :** Python, R, SQL, PHP, API BCE, Odoo  
+**Impact :** 100k lignes/semaine automatisées, conformité totale.
 
-### [3. Thésaurus sémantique bancaire (NLP / Word2Vec)](./projects/semantic-thesaurus/index.md)
-Modèle NLP entraîné sur le glossaire bancaire pour détecter et harmoniser les synonymes métier.  
-**Stack :** Python • spaCy • Word2Vec • Streamlit  
-**Résultats :** amélioration de 40 % de la recherche sémantique dans Collibra.
+### Pipelines ETL & traitements automatisés
+Développement de pipelines Python/SQL pour ingestion, transformation, contrôle qualité et historisation.  
+**Stack :** Python, SQL, Snowflake  
+**Impact :** automatisation complète de flux critiques.
 
-### [4. Chatbot Sémantique Inter-Cloud – Crédit Agricole](./projects/chatbot-collibra/index.md)
-Chatbot connecté entre GCP et AWS exploitant le moteur de Thesaurus pour reformuler et enrichir les requêtes métier.  
-**Stack :** Python • FastAPI • spaCy • GCP • AWS Lambda • Collibra API  
-**Résultats :** taux de reformulation correcte de 87 % et temps de réponse inférieur à 350 ms.
+# Data Analytics & Visualisation
 
-## Projets Cloud & Automatisation
+### [Dashboard Data Quality (Power BI)](./projects/data-quality-dashboard/index.md)
+Analyse de la fiabilité des données et des performances métier.  
+**Stack :** Power BI, SQL
 
-### [5. Projet Digitalife – Automatisation et fiabilisation des référentiels clients](./projects/digitalife-data-automation/index.md)
-Automatisation du nettoyage, enrichissement et intégration des référentiels clients avant import ERP Odoo.  
-**Stack :** R • Python • SQL • PHP • Odoo • API BCE  
-**Résultats :** plus de 100 000 lignes traitées par semaine, conformité RGPD totale, gain de productivité de 40 %.
+### [DWFA – Dashboard mondial accès à l’eau potable](./projects/dwfa-water-dashboard/index.md)
+Dashboard d’analyse multi-indicateurs pour ONG.  
+**Stack :** Tableau, SQL  
+**Impact :** outil décisionnel couvrant plus de 190 pays.
 
-## Projets Data for Good
+# NLP, Sémantique & Intelligence Artificielle
 
-### [6. DWFA – Tableau de bord mondial sur l’accès à l’eau potable](./projects/dwfa-water-dashboard/index.md)
-Tableau de bord Tableau Software pour visualiser les indicateurs mondiaux d’accès à l’eau potable et à l’assainissement.  
-**Stack :** Tableau • SQL • Données Banque Mondiale & OMS  
-**Résultats :** outil décisionnel pour la planification des actions de l’ONG DWFA (190 pays analysés).
+### [Thésaurus sémantique bancaire (Word2Vec / NLP)](./projects/semantic-thesaurus/index.md)
+Détection automatique de synonymes métier et structuration du glossaire Collibra.  
+**Stack :** Python, spaCy, Word2Vec, Streamlit, Snowflake  
+**Impact :** amélioration de 40% de la cohérence sémantique.
 
-## Compétences techniques
+### [Chatbot inter-cloud Collibra](./projects/chatbot-collibra/index.md)
+Chatbot exploitant le moteur sémantique pour reformuler et enrichir les requêtes métier.  
+**Stack :** Python, FastAPI, spaCy, AWS, GCP  
+**Impact :** 87% de réponses pertinentes, <350 ms.
+
+# Compétences techniques
 
 | Domaine | Outils / Technologies |
-|----------|-----------------------|
-| **Langages** | Python • SQL • R • DAX |
-| **ETL / Data Engineering** | Talend • Dataiku • DBT • GCP • Snowflake |
-| **Gouvernance & Qualité** | Collibra • Data Catalog • Lineage • RGPD • BCBS 239 |
-| **NLP & IA** | spaCy • Word2Vec • FastAPI • Streamlit |
-| **Visualisation** | Power BI • Tableau |
-| **Méthodes** | Agile • Scrum • Documentation technique |
-| **Outils collaboratifs** | Jira • Confluence • Git • ServiceNow |
+|---------|------------------------|
+| Data Engineering | Python, SQL, Talend, Dataiku, DBT, API, Airflow |
+| Cloud & Bases | Snowflake, GCP, BigQuery, PostgreSQL, MySQL |
+| Gouvernance & Qualité | Collibra, Data Catalog, Lineage, Data Quality, RGPD, BCBS 239 |
+| IA & NLP | spaCy, Word2Vec, FastAPI, Streamlit |
+| Data Visualisation | Power BI, Tableau, DAX |
+| Langages | Python, SQL, R, PHP, JavaScript |
+| Méthodes | Agile, Scrum, documentation technique |
+| Outils collaboratifs | Git, Jira, Confluence, ServiceNow |
 
-## Formation
+# Formation
 
-**Diplôme d’ingénieur – Informatique & Statistiques**, *Polytech Lille* (2023–2025)  
-**Classes préparatoires – MPSI/MP**, *Polytech Lille* (2020–2022)  
-**Baccalauréat scientifique (mention Très bien)**, *Lycée Sacré-Cœur, Tourcoing*  
-**Langues :** Français (native), Anglais (C1 - TOEIC 845), Espagnol (C1)
+Diplôme d’ingénieur en Informatique & Statistiques – Polytech Lille  
+Classes préparatoires MPSI/MP – Polytech Lille  
+Baccalauréat Scientifique – Mention Très Bien  
+Langues : Français, Anglais (C1), Espagnol (C1)
 
-## Domaines d’intérêt
+# Domaines d’intérêt
 
-- Automatisation et intégration des processus data  
-- Gouvernance & conformité (BCBS 239, RGPD)  
-- Cloud & Data Architecture (GCP, Snowflake, AWS)  
-- NLP, sémantique et IA appliquée à la donnée  
-- Data Visualisation & storytelling  
+Automatisation des processus data  
+Gouvernance et conformité  
+Cloud & architecture data  
+NLP et IA appliquée  
+Data visualisation et storytelling  
 
-## Contact
+# Contact
 
-📧 [tariq.tamrabet@hotmail.com](mailto:tariq.tamrabet@hotmail.com)  
+📧 tariq.tamrabet@hotmail.com  
 🔗 [LinkedIn](https://linkedin.com/in/tariq-tamrabet)
 
 <style>
 footer { display: none !important; }
 </style>
 
-*“Construire des données fiables, c’est construire la confiance dans les décisions.”*
-
-
+“Construire des données fiables, c’est construire la confiance dans les décisions.”
