@@ -198,6 +198,8 @@ Le système repose sur une chaîne automatisée d’alimentation, de calcul et d
 
 ---
 
-### Prochain projet → [Data Governance Automation](../data-governance-automation/)
+### Prochain projet → [DWFA – Dashboard mondial accès à l’eau](../dwfa-water-dashboard/)
+
+
 
 > *“Mesurer la qualité des données, c’est mesurer la confiance dans l’entreprise.”*
