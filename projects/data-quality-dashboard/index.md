@@ -3,7 +3,6 @@ layout: project
 title: "Data Quality Dashboard"
 ---
 
-
 # Data Quality Dashboard – Suivi et Pilotage des Indicateurs de Qualité
 
 ## Contexte
@@ -51,20 +50,16 @@ Le système repose sur une chaîne automatisée d’alimentation, de calcul et d
     alt="architecture"
     style="
       display:block;
-      margin: 0 auto;                   /* centrage parfait */
-      width:100%;                       /* taille maximale dans la zone de contenu */
-      max-width:1700px;                 /* grande largeur sur écran large */
-      border: 5px solid #000000;        /* cadre noir */
+      margin: 0 auto;
+      width:100%;                       /* image au max de la zone de contenu */
+      max-width:1900px;                 /* un peu plus large qu'avant */
+      border: 5px solid #000000;
       border-radius: 12px;
       padding: 12px;
       background-color: #ffffff;
       box-shadow: 0 8px 28px rgba(0,0,0,0.25);
     ">
 </p>
-
-
-
-
 
 ---
 
@@ -97,22 +92,22 @@ Le système repose sur une chaîne automatisée d’alimentation, de calcul et d
 - Agrégation par domaine, entité et type de donnée.  
 
 ### Image 2 – Exemple de tableau d’indicateurs consolidés
-<p align="center" style="margin: 50px 0; text-align: center;">
+<p style="margin: 50px 0; text-align: center;">
   <img 
     src="https://github.com/user-attachments/assets/cb3e8060-c44c-406c-a246-65901a587fa8"
     alt="indicateurs"
     style="
-      display:inline-block;
-      width:85%;
-      max-width:1100px;
-      border: 4px solid #000000;          /* cadre noir épais */
-      border-radius: 10px;                /* coins légèrement arrondis */
-      padding: 8px;                       /* espace interne autour de l'image */
-      background-color: #ffffff;          /* fond blanc pour bien détacher du fond */
-      box-shadow: 0 6px 22px rgba(0,0,0,0.25); /* ombre douce et contrastée */
+      display:block;
+      margin: 0 auto;
+      width:100%;                       /* agrandi */
+      max-width:1600px;                 /* plus grand qu'avant */
+      border: 4px solid #000000;
+      border-radius: 10px;
+      padding: 10px;
+      background-color: #ffffff;
+      box-shadow: 0 6px 22px rgba(0,0,0,0.25);
     ">
 </p>
-
 
 ---
 
@@ -128,16 +123,15 @@ Le système repose sur une chaîne automatisée d’alimentation, de calcul et d
     alt="model"
     style="
       display:inline-block;
-      width:80%;                       /* taille légèrement réduite */
-      max-width:1000px;                /* limite raisonnable pour garder la netteté */
-      border: 3px solid #000000;       /* cadre noir élégant */
-      border-radius: 10px;             /* coins arrondis légers */
-      padding: 8px;                    /* espace interne équilibré */
-      background-color: #ffffff;       /* fond blanc neutre */
-      box-shadow: 0 5px 18px rgba(0,0,0,0.25); /* ombre douce pour relief */
+      width:65%;                       /* diminuée */
+      max-width:900px;                 /* un peu plus compact */
+      border: 3px solid #000000;
+      border-radius: 10px;
+      padding: 8px;
+      background-color: #ffffff;
+      box-shadow: 0 5px 18px rgba(0,0,0,0.25);
     ">
 </p>
-
 
 ---
 
